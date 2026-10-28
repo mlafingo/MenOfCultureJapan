@@ -171,46 +171,7 @@ When editing `src/data/japanVlogsData.json`:
 
 ---
 
-## 6. What to Do After Editing & Putting on GitHub
-
-Once you finish editing `japanVlogsData.json` locally on your computer, here is the exact step-by-step process to push it to GitHub and publish it live for free:
-
-### Step 1: Initialize & Push to GitHub
-In your project directory terminal:
-```bash
-# 1. Initialize git (if not already done)
-git init
-
-# 2. Stage your changes
-git add .
-
-# 3. Commit your changes
-git commit -m "Update Japan vlog route and places data"
-
-# 4. Set branch to main and link your GitHub repo
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-
-# 5. Push code
-git push -u origin main
-```
-
-### Step 2: Deploy for Free (Zero Server Costs)
-
-You have 3 free hosting choices. **Vercel** is recommended because it requires zero configuration:
-
-#### Option A: Vercel (Recommended — 60 seconds setup)
-1. Go to [vercel.com](https://vercel.com) and sign in with your GitHub account.
-2. Click **"Add New..."** → **"Project"**.
-3. Select your GitHub repository.
-4. Vercel automatically detects **Vite**:
-   - **Framework Preset**: `Vite`
-   - **Build Command**: `npm run build`
-   - **Output Directory**: `dist`
-5. Click **Deploy**.
-6. **Done!** Whenever you edit `src/data/japanVlogsData.json` and push to GitHub, Vercel will automatically rebuild and deploy the live site in under 30 seconds.
-
-#### Option B: GitHub Pages (Free inside GitHub)
+#### GitHub Pages
 If you want to host it entirely inside GitHub without 3rd party accounts:
 1. In your GitHub repo, go to **Settings** → **Pages** → **Source** → select **GitHub Actions**.
 2. In your repo root, create `.github/workflows/deploy.yml`:
@@ -263,21 +224,6 @@ jobs:
 
 ---
 
-## 7. About the Map: Should You Change Provider or Get an API Key?
-
-### Short Answer:
-**Keep the current Leaflet setup. You DO NOT need to change providers or get any API key.**
-
-### Here is why:
-
-| Feature | Current Leaflet + CartoDB / Esri (Active) | Google Maps JS SDK | Mapbox GL |
-| :--- | :--- | :--- | :--- |
-| **API Key Needed?** | **NO** (Zero config) | YES (Requires Google Cloud) | YES (Requires Mapbox account) |
-| **Credit Card Required?** | **NO** | YES (GCP billing required) | Optional initially |
-| **Cost** | **100% Free forever** | $7/1k loads after $200 credit | Free up to 50k loads/month |
-| **Public GitHub Safety** | **100% Safe** (No secrets to leak) | Not safe (risk of key leakage) | Moderate risk |
-| **Performance** | Instant static tile CDN, sub-100ms | Slower JS bootstrap (~1.2MB) | WebGL shader compilation |
-| **External Navigation** | Opens native Google Maps app | Same | Same |
 
 ### How the current map works:
 1. **Tiles**: The website loads high-resolution vector-rendered raster tiles from **CartoDB Voyager** (`https://basemaps.cartocdn.com/rastertiles/voyager/`), **CartoDB Dark**, and satellite imagery from **Esri World Imagery**. These are open tile servers optimized for web viewing.
