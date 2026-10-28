@@ -226,7 +226,7 @@ jobs:
 
 
 ### How the current map works:
-1. **Tiles**: The website loads high-resolution vector-rendered raster tiles from **CartoDB Voyager** (`https://basemaps.cartocdn.com/rastertiles/voyager/`), **CartoDB Dark**, and satellite imagery from **Esri World Imagery**. These are open tile servers optimized for web viewing.
+1. **Tiles**: The website loads high-resolution vector-rendered raster tiles from **CartoDB Voyager** (`https://basemaps.cartocdn.com/rastertiles/voyager/`), **CartoDB Dark**, and satellite imagery from **Esri World Imagery**. CARTO now requires a free API key: set `VITE_CARTO_API_KEY` in Netlify's environment variables (or `.env.local` locally). Without a key, the Streets and Dark styles fall back to standard OpenStreetMap tiles.
 2. **POI Navigation**: When a user clicks **"Maps ↗"** on any place or marker, the app opens a direct Google Maps URL (`https://www.google.com/maps/search/?api=1&query=LAT,LNG`). This launches the **official Google Maps application** on iPhone/Android or Google Maps desktop. This is completely free and requires zero API keys.
 3. **If you ever want Mapbox vector styles in the future**: You can easily swap the tile URL in `src/components/JourneyMap.tsx` with `https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=YOUR_KEY`, but CartoDB Voyager is already clean, ultra-responsive, and 100% maintenance-free.
 

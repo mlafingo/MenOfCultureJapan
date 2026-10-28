@@ -34,16 +34,26 @@ export const JourneyMap: React.FC<JourneyMapProps> = ({
   const [autoFollow, setAutoFollow] = useState<boolean>(true);
   const [mapStyle, setMapStyle] = useState<'streets' | 'dark' | 'satellite'>('streets');
 
-  // Tile layers definition
+  // Tile layers definition. CARTO basemaps need an API key (VITE_CARTO_API_KEY);
+  // without one, fall back to standard OpenStreetMap tiles so the map still renders.
+  const CARTO_KEY = import.meta.env.VITE_CARTO_API_KEY as string | undefined;
+  const OSM_URL = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
+  const OSM_ATTRIBUTION = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+  const CARTO_ATTRIBUTION = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>';
+
   const TILE_URLS = {
-    streets: 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
-    dark: 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+    streets: CARTO_KEY
+      ? `https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png?key=${encodeURIComponent(CARTO_KEY)}`
+      : OSM_URL,
+    dark: CARTO_KEY
+      ? `https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=${encodeURIComponent(CARTO_KEY)}`
+      : OSM_URL,
     satellite: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
   };
 
   const ATTRIBUTIONS = {
-    streets: '&copy; <a href="https://carto.com/">CARTO</a> &copy; OpenStreetMap',
-    dark: '&copy; <a href="https://carto.com/">CARTO</a> &copy; OpenStreetMap',
+    streets: CARTO_KEY ? CARTO_ATTRIBUTION : OSM_ATTRIBUTION,
+    dark: CARTO_KEY ? CARTO_ATTRIBUTION : OSM_ATTRIBUTION,
     satellite: 'Tiles &copy; Esri',
   };
 
