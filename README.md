@@ -8,7 +8,7 @@ src/data/japanVlogsData.json
 ```
 
 Whenever you edit `japanVlogsData.json`, the website automatically updates:
-- **Navigation & Days Bar** (Day 1 through Day 16, or any new days you add)
+- **Navigation & Days Bar** (Day 1 through Day 16, Complete Series)
 - **Region Filters** (`Tokyo`, `Kyoto`, `Osaka`, `Nara`, etc., derived dynamically)
 - **Synchronized Route & Walking Stages** (GPS interpolation with easing speeds)
 - **Visited Stops List** with 1-click **Play** (seeks YouTube video) and **Maps** (opens Google Maps)
@@ -16,7 +16,15 @@ Whenever you edit `japanVlogsData.json`, the website automatically updates:
 
 ---
 
-## 📍 1. Where the Data Lives
+## Note on AI & Ground-Truth Verification
+
+The initial draft of the 16-day itinerary (including GPS coordinates, timestamps, and route segments) was synthesized using AI-assisted analysis of the publicly available vlog videos and dialogue transcripts. 
+
+Because YouTube travel vlogs feature jump cuts, fast edits, and occasional off-camera transit, some coordinates or timestamps may be approximate. This repository is architected so that anyone can easily refine, fix, or add stops simply by editing the single `src/data/japanVlogsData.json` file. All location hints, addresses, and timestamps in the dataset serve as editable baselines.
+
+---
+
+## 1. Where the Data Lives
 
 Open the following file in your code editor:
 ```
@@ -44,7 +52,7 @@ The file contains an array of episode objects:
 
 ---
 
-## 🛠️ 2. How to Add a Location Missed by AI
+## 2. How to Add a Location Missed by AI
 
 ### Step A: Find the Target Episode
 In `src/data/japanVlogsData.json`, search (`Ctrl + F` or `Cmd + F`) for the episode ID or day number:
@@ -106,7 +114,7 @@ Add a new object to the `"places"` array of that episode. Remember to separate o
 
 ---
 
-## ✏️ 3. How to Fix an Existing Stop
+## 3. How to Fix an Existing Stop
 
 If a location has the wrong coordinates, wrong video time, or typo:
 
@@ -121,7 +129,7 @@ If a location has the wrong coordinates, wrong video time, or typo:
 
 ---
 
-## 🚶 4. How to Fix or Add Walking / Transit Route Paths
+## 4. How to Fix or Add Walking / Transit Route Paths
 
 Each episode has a `"segments"` array that draws the red/teal GPS trail on the map and animates the pin in sync with playback.
 
@@ -153,53 +161,7 @@ To add or update a route stage:
 
 ---
 
-## ➕ 5. How to Add a Whole New Episode (e.g. Day 17)
-
-To add another vlog episode to the series, add a new episode object to the end of the root array in `src/data/japanVlogsData.json`:
-
-```json
-{
-  "id": "ep-17",
-  "dayNumber": 17,
-  "region": "Tokyo",
-  "title": "Departure & Final Souvenir Haul - Episode 17",
-  "youtubeId": "YOUTUBE_ID_HERE",
-  "youtubeUrl": "https://youtu.be/YOUTUBE_ID_HERE",
-  "channelName": "Men of Culture Ultra",
-  "totalDurationSeconds": 900,
-  "overview": "Final day packing up, exploring Tokyo Station ramen street, and airport transit.",
-  "segments": [
-    {
-      "id": "ep17-seg-1",
-      "title": "Heading to Tokyo Station",
-      "timeStart": 0,
-      "timeEnd": 300,
-      "pacing": "linear",
-      "description": "Morning transit to Tokyo Central Station.",
-      "path": [
-        [35.6812, 139.7671],
-        [35.6825, 139.7690]
-      ]
-    }
-  ],
-  "places": [
-    {
-      "id": "ep17-place-01",
-      "name": "Tokyo Ramen Street",
-      "category": "food",
-      "coordinates": [35.6806, 139.7684],
-      "videoTimestamp": 180,
-      "description": "Last bowl of ramen in underground Tokyo Station.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6806,139.7684",
-      "address": "Tokyo Station First Avenue B1F"
-    }
-  ]
-}
-```
-
----
-
-## ⚠️ 6. JSON Syntax Checklist
+## 5. JSON Syntax Checklist
 
 When editing `src/data/japanVlogsData.json`:
 1. **Double Quotes**: All keys and strings must be enclosed in double quotes `""` (not single quotes `''`).
@@ -209,7 +171,7 @@ When editing `src/data/japanVlogsData.json`:
 
 ---
 
-## 🚀 7. What to Do After Editing & Putting on GitHub
+## 6. What to Do After Editing & Putting on GitHub
 
 Once you finish editing `japanVlogsData.json` locally on your computer, here is the exact step-by-step process to push it to GitHub and publish it live for free:
 
@@ -301,7 +263,7 @@ jobs:
 
 ---
 
-## 🗺️ 8. About the Map: Should You Change Provider or Get an API Key?
+## 7. About the Map: Should You Change Provider or Get an API Key?
 
 ### Short Answer:
 **Keep the current Leaflet setup. You DO NOT need to change providers or get any API key.**
@@ -313,7 +275,7 @@ jobs:
 | **API Key Needed?** | **NO** (Zero config) | YES (Requires Google Cloud) | YES (Requires Mapbox account) |
 | **Credit Card Required?** | **NO** | YES (GCP billing required) | Optional initially |
 | **Cost** | **100% Free forever** | $7/1k loads after $200 credit | Free up to 50k loads/month |
-| **Public GitHub Safety** | **100% Safe** (No secrets to leak) | ⚠️ High risk if key is leaked | ⚠️ Medium risk |
+| **Public GitHub Safety** | **100% Safe** (No secrets to leak) | Not safe (risk of key leakage) | Moderate risk |
 | **Performance** | Instant static tile CDN, sub-100ms | Slower JS bootstrap (~1.2MB) | WebGL shader compilation |
 | **External Navigation** | Opens native Google Maps app | Same | Same |
 

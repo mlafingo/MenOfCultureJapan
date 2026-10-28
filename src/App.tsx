@@ -20,9 +20,17 @@ import {
   Play,
 } from 'lucide-react';
 
-export default function App() {
-  const episodes = JAPAN_VLOGS_DATA;
+// Static precomputed structures for 16-day series (O(1) lookups and zero recomputation)
+const EPISODES = JAPAN_VLOGS_DATA;
+const TOTAL_DAYS = EPISODES.length;
+const EPISODES_BY_ID = new Map(EPISODES.map((e) => [e.id, e]));
+const AVAILABLE_REGIONS = [
+  'ALL',
+  ...Array.from(new Set(EPISODES.map((e) => e.region).filter((r): r is string => Boolean(r)))),
+];
+const TOTAL_STOPS_COUNT = EPISODES.reduce((acc, ep) => acc + ep.places.length, 0);
 
+export default function App() {
   const [activeEpisodeId, setActiveEpisodeId] = useState<string>('ep-01');
   const [currentTime, setCurrentTime] = useState<number>(0);
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
@@ -31,21 +39,10 @@ export default function App() {
   const [isPlaylistDrawerOpen, setIsPlaylistDrawerOpen] = useState<boolean>(false);
   const [searchQuery, setSearchQuery] = useState<string>('');
 
-  // Dynamically derive unique regions from the episodes themselves (Self-sustainable, no hardcoding)
-  const availableRegions = useMemo(() => {
-    const regionSet = new Set<string>();
-    episodes.forEach((ep) => {
-      if (ep.region) {
-        regionSet.add(ep.region);
-      }
-    });
-    return ['ALL', ...Array.from(regionSet)];
-  }, [episodes]);
-
-  // Active episode object
+  // Active episode object (O(1) lookup)
   const currentEpisode = useMemo(() => {
-    return episodes.find((e) => e.id === activeEpisodeId) || episodes[0];
-  }, [episodes, activeEpisodeId]);
+    return EPISODES_BY_ID.get(activeEpisodeId) || EPISODES[0];
+  }, [activeEpisodeId]);
 
   // Calculate episode duration dynamically
   const episodeDuration = useMemo(() => {
@@ -63,22 +60,22 @@ export default function App() {
   }, [currentTime, currentEpisode.segments]);
 
   // Switch episode
-  const handleSelectEpisode = (epId: string) => {
+  const handleSelectEpisode = React.useCallback((epId: string) => {
     setActiveEpisodeId(epId);
     setCurrentTime(0);
     setIsPlaying(false);
     setIsPlaylistDrawerOpen(false);
-  };
+  }, []);
 
-  const handleSeek = (newTime: number) => {
+  const handleSeek = React.useCallback((newTime: number) => {
     setCurrentTime(newTime);
-  };
+  }, []);
 
-  // Filter episodes dynamically based on self-contained region tag and search
+  // Filter episodes dynamically based on region tag and search
   const filteredEpisodes = useMemo(() => {
-    let list = episodes;
+    let list = EPISODES;
     if (selectedRegion !== 'ALL') {
-      list = episodes.filter((e) => e.region === selectedRegion);
+      list = EPISODES.filter((e) => e.region === selectedRegion);
     }
 
     if (searchQuery.trim()) {
@@ -92,11 +89,7 @@ export default function App() {
     }
 
     return list;
-  }, [episodes, selectedRegion, searchQuery]);
-
-  const totalStopsCount = useMemo(() => {
-    return episodes.reduce((acc, ep) => acc + ep.places.length, 0);
-  }, [episodes]);
+  }, [selectedRegion, searchQuery]);
 
   return (
     <div className="min-h-screen bg-[#edf3f3] text-[#172331] flex flex-col font-sans">
@@ -113,7 +106,7 @@ export default function App() {
                 MoC in Japan
               </span>
               <span className="text-[10px] font-mono px-1.5 py-0.2 rounded-[2px] bg-[#0e7490]/10 text-[#0e7490] border border-[#0e7490]/25 font-bold">
-                {episodes.length} DAYS
+                {TOTAL_DAYS} DAYS
               </span>
             </div>
             <span className="text-[11px] text-[#4f6276] font-mono hidden sm:block">
@@ -124,7 +117,7 @@ export default function App() {
 
         {/* Region Filter Segmented Bar (Dynamically populated from data) */}
         <div className="hidden md:flex items-center gap-1 bg-[#eaf0f0] p-1 rounded-[4px] border border-[#12293c]/15 text-xs font-mono font-semibold">
-          {availableRegions.map((region) => (
+          {AVAILABLE_REGIONS.map((region) => (
             <button
               key={region}
               onClick={() => setSelectedRegion(region)}
@@ -134,7 +127,7 @@ export default function App() {
                   : 'text-[#4f6276] hover:text-[#172331] hover:bg-[#e7eeee]'
               }`}
             >
-              {region} {region === 'ALL' ? `(${episodes.length})` : ''}
+              {region} {region === 'ALL' ? `(${TOTAL_DAYS})` : ''}
             </button>
           ))}
         </div>
@@ -146,7 +139,7 @@ export default function App() {
             className="flex items-center gap-1.5 px-3 py-1.5 rounded-[3px] bg-[#f5f8f7] hover:bg-[#e7eeee] text-[#172331] text-xs font-mono font-semibold transition-colors cursor-pointer border border-[#12293c]/15 shadow-xs"
           >
             <Film className="w-3.5 h-3.5 text-[#0e7490]" />
-            <span>DAYS ({episodes.length})</span>
+            <span>DAYS ({TOTAL_DAYS})</span>
           </button>
         </div>
       </header>
@@ -373,7 +366,7 @@ export default function App() {
               <div>
                 <h2 className="text-base font-bold text-[#172331] flex items-center gap-2 font-mono">
                   <Film className="w-4 h-4 text-[#0e7490]" />
-                  <span>EPISODE CATALOG ({episodes.length} DAYS)</span>
+                  <span>EPISODE CATALOG ({TOTAL_DAYS} DAYS)</span>
                 </h2>
                 <p className="text-xs text-[#4f6276] mt-0.5">
                   Select any day to synchronize its route and explore verified stops.
@@ -445,7 +438,7 @@ export default function App() {
             {/* Footer */}
             <div className="px-5 py-2.5 border-t border-[#12293c]/15 bg-[#eaf0f0] flex items-center justify-between text-xs text-[#4f6276] font-mono">
               <div className="flex items-center gap-3">
-                <span>{episodes.length} EPISODES · {totalStopsCount}+ GOOGLE STOPS</span>
+                <span>{TOTAL_DAYS} EPISODES · {TOTAL_STOPS_COUNT}+ GOOGLE STOPS</span>
               </div>
               <button
                 onClick={() => setIsPlaylistDrawerOpen(false)}

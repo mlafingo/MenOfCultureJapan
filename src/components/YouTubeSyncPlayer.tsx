@@ -127,7 +127,7 @@ export const YouTubeSyncPlayer: React.FC<YouTubeSyncPlayerProps> = ({
             onTimeUpdate(t);
           }
         }
-      }, 100);
+      }, 200);
     }
 
     return () => {

@@ -151,17 +151,35 @@ export const JourneyMap: React.FC<JourneyMapProps> = ({
       const getCategoryBadge = (cat: string) => {
         switch (cat) {
           case 'stay':
-            return { color: '#4f46e5', label: '🏨' };
+            return {
+              color: '#4f46e5',
+              svg: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#4f46e5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4v16"/><path d="M2 8h18a2 2 0 0 1 2 2v10"/><path d="M2 17h20"/><path d="M6 8v9"/></svg>',
+            };
           case 'food':
-            return { color: '#d97706', label: '🍜' };
+            return {
+              color: '#d97706',
+              svg: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#d97706" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2v6a3 3 0 0 1-3 3 3 3 0 0 1-3-3V2"/><path d="M15 2v18"/><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/></svg>',
+            };
           case 'landmark':
-            return { color: '#db2777', label: '⛩️' };
+            return {
+              color: '#db2777',
+              svg: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#db2777" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="22" x2="21" y2="22"/><line x1="6" y1="18" x2="6" y2="11"/><line x1="10" y1="18" x2="10" y2="11"/><line x1="14" y1="18" x2="14" y2="11"/><line x1="18" y1="18" x2="18" y2="11"/><polygon points="12 2 20 7 4 7"/></svg>',
+            };
           case 'transit':
-            return { color: '#0284c7', label: '🚆' };
+            return {
+              color: '#0284c7',
+              svg: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="16" x="4" y="3" rx="2"/><path d="M4 11h16"/><path d="M12 3v8"/><path d="m8 19-2 3"/><path d="m18 22-2-3"/><circle cx="8" cy="15" r="1"/><circle cx="16" cy="15" r="1"/></svg>',
+            };
           case 'viewpoint':
-            return { color: '#7c3aed', label: '📸' };
+            return {
+              color: '#7c3aed',
+              svg: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/></svg>',
+            };
           default:
-            return { color: '#059669', label: '📍' };
+            return {
+              color: '#059669',
+              svg: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>',
+            };
         }
       };
 
@@ -170,7 +188,7 @@ export const JourneyMap: React.FC<JourneyMapProps> = ({
       // Sharp LNReader style square badge with subtle 4px border radius
       const html = `
         <div style="background-color: #f5f8f7; border: 1.5px solid ${badge.color}; border-radius: 4px; width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 8px rgba(18, 41, 60, 0.18); cursor: pointer; transition: transform 0.15s ease;">
-          <span style="font-size: 14px; line-height: 1;">${badge.label}</span>
+          ${badge.svg}
         </div>
       `;
 
@@ -191,7 +209,7 @@ export const JourneyMap: React.FC<JourneyMapProps> = ({
           <span style="background:${badge.color}18; color:${badge.color}; border:1px solid ${badge.color}40; padding:2px 6px; border-radius:3px; font-size:10px; font-family:'JetBrains Mono',monospace; font-weight:700; text-transform:uppercase;">
             ${poi.category}
           </span>
-          <span style="font-family:'JetBrains Mono',monospace; font-size:11px; color:#4f6276;">
+          <span style="font-family:'JetBrains Mono',monospace; font-size:11px; color:#4f6276; font-weight:600;">
             @ ${formatTime(poi.videoTimestamp)}
           </span>
         </div>
@@ -202,11 +220,13 @@ export const JourneyMap: React.FC<JourneyMapProps> = ({
           ${poi.description}
         </div>
         <div style="display:flex; gap:6px;">
-          <button id="poi-jump-${poi.id}" style="flex:1; display:inline-flex; align-items:center; justify-content:center; gap:4px; padding:5px 8px; background:#edf3f3; color:#172331; border:1px solid rgba(18,41,60,0.18); border-radius:3px; font-size:11px; font-weight:600; cursor:pointer; font-family:'Space Grotesk',sans-serif;">
-            <span>▶ Play</span>
+          <button id="poi-jump-${poi.id}" style="flex:1; display:inline-flex; align-items:center; justify-content:center; gap:5px; padding:6px 8px; background:#edf3f3; color:#172331; border:1px solid rgba(18,41,60,0.18); border-radius:3px; font-size:11px; font-weight:700; cursor:pointer; font-family:'Space Grotesk',sans-serif; letter-spacing:0.4px;">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="#0e7490" stroke="#0e7490" stroke-width="2"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+            <span>PLAY</span>
           </button>
-          <a href="${poi.googleMapsUrl}" target="_blank" rel="noopener noreferrer" style="flex:1; display:inline-flex; align-items:center; justify-content:center; gap:4px; padding:5px 8px; background:#0e7490; color:#ffffff; border:1px solid #0f5a6a; border-radius:3px; font-size:11px; font-weight:700; text-decoration:none; font-family:'Space Grotesk',sans-serif;">
-            <span>Maps ↗</span>
+          <a href="${poi.googleMapsUrl}" target="_blank" rel="noopener noreferrer" style="flex:1; display:inline-flex; align-items:center; justify-content:center; gap:5px; padding:6px 8px; background:#0e7490; color:#ffffff; border:1px solid #0f5a6a; border-radius:3px; font-size:11px; font-weight:700; text-decoration:none; font-family:'Space Grotesk',sans-serif; letter-spacing:0.4px;">
+            <span>MAPS</span>
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           </a>
         </div>
       `;
