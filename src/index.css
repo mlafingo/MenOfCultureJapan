@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Space Grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-heading: 'Space Grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* lnreader.app exact design tokens directly extracted from lnreader.app */
+:root {
+  --background: #edf3f3;
+  --background-soft: #e7eeee;
+  --surface: #f5f8f7;
+  --surface-muted: #eaf0f0;
+  --foreground: #172331;
+  --muted: #4f6276;
+  --accent: #0e7490;
+  --accent-strong: #0f5a6a;
+  --accent-soft: rgba(14, 116, 144, 0.08);
+  --outline: rgba(18, 41, 60, 0.12);
+  --border: rgba(18, 41, 60, 0.12);
+  --border-strong: rgba(18, 41, 60, 0.22);
+  --shadow-soft: 0 1px 3px rgba(18, 41, 60, 0.06);
+  --radius-md: .35rem; /* ~5.6px */
+  --radius-sm: .25rem; /* 4px */
+}
+
+/* Force Space Grotesk globally across all UI elements */
+*, ::before, ::after {
+  font-family: 'Space Grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  letter-spacing: -0.012em;
+}
+
+/* Monospace overrides for timestamps, coordinates, and telemetry */
+code, kbd, samp, pre, .font-mono, [data-mono="true"] {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important;
+  letter-spacing: -0.02em;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* LNReader High-Density Scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-soft);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd7d7;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a8a8;
+}
+
+/* Leaflet Sharp LNReader Styled Popup */
+.leaflet-popup-content-wrapper {
+  background-color: var(--surface) !important;
+  color: var(--foreground) !important;
+  border-radius: 5px !important;
+  box-shadow: 0 4px 14px rgba(18, 41, 60, 0.12), 0 0 0 1px rgba(18, 41, 60, 0.12) !important;
+  border: 1px solid rgba(18, 41, 60, 0.12) !important;
+  padding: 4px !important;
+}
+
+.leaflet-popup-content {
+  margin: 10px 12px !important;
+  line-height: 1.4 !important;
+}
+
+.leaflet-popup-tip {
+  background-color: var(--surface) !important;
+  box-shadow: 0 4px 10px rgba(18, 41, 60, 0.1) !important;
+}
+
+.leaflet-popup-close-button {
+  color: var(--muted) !important;
+  top: 8px !important;
+  right: 8px !important;
+}
+
+.leaflet-popup-close-button:hover {
+  color: var(--foreground) !important;
+}

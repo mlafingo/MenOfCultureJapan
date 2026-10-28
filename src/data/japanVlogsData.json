@@ -1,0 +1,2827 @@
+[
+  {
+    "id": "ep-01",
+    "dayNumber": 1,
+    "region": "Tokyo",
+    "title": "We Are Finally in Japan - Episode 1",
+    "youtubeId": "Ss8yhFSeiT8",
+    "youtubeUrl": "https://youtu.be/Ss8yhFSeiT8",
+    "channelName": "Men of Culture Ultra",
+    "totalDurationSeconds": 960,
+    "overview": "Day 1 of the Men of Culture Japan trip: Arrival in Tokyo, navigating transit from the airport, check-in at the Tokyo hotel, exploring local convenience stores for late-night snacks, and evening street stroll.",
+    "segments": [
+      {
+        "id": "ep1-seg-1",
+        "title": "Airport Transit to Central Tokyo",
+        "timeStart": 30,
+        "timeEnd": 165,
+        "pacing": "easeOut",
+        "description": "Landing at Tokyo international terminal, boarding airport express rail into central Tokyo.",
+        "path": [
+          [
+            35.5494,
+            139.7798
+          ],
+          [
+            35.5802,
+            139.7541
+          ],
+          [
+            35.6284,
+            139.7387
+          ],
+          [
+            35.6586,
+            139.7454
+          ],
+          [
+            35.6895,
+            139.6917
+          ]
+        ]
+      },
+      {
+        "id": "ep1-seg-2",
+        "title": "Walking to Hotel Check-in",
+        "timeStart": 165,
+        "timeEnd": 320,
+        "pacing": "linear",
+        "description": "Exiting the station with luggage, walking through bustling district streets to the hotel.",
+        "path": [
+          [
+            35.6895,
+            139.6917
+          ],
+          [
+            35.6908,
+            139.6932
+          ],
+          [
+            35.6925,
+            139.6954
+          ],
+          [
+            35.6942,
+            139.6978
+          ]
+        ]
+      },
+      {
+        "id": "ep1-seg-3",
+        "title": "Convenience Store Stroll (Slow Start, Fast End)",
+        "timeStart": 320,
+        "timeEnd": 530,
+        "pacing": "easeIn",
+        "description": "First night snack run: walking slowly browsing store fronts, then walking briskly along the lighted avenue.",
+        "path": [
+          [
+            35.6942,
+            139.6978
+          ],
+          [
+            35.6951,
+            139.6989
+          ],
+          [
+            35.6963,
+            139.7005
+          ],
+          [
+            35.6978,
+            139.7028
+          ],
+          [
+            35.6994,
+            139.7055
+          ]
+        ]
+      },
+      {
+        "id": "ep1-seg-4",
+        "title": "Night Street & Alleyway Exploration",
+        "timeStart": 530,
+        "timeEnd": 780,
+        "pacing": "easeInOut",
+        "description": "Late night walk through Tokyo lantern-lit alleyways before heading back to rest for Day 2.",
+        "path": [
+          [
+            35.6994,
+            139.7055
+          ],
+          [
+            35.6982,
+            139.7042
+          ],
+          [
+            35.6965,
+            139.7018
+          ],
+          [
+            35.6942,
+            139.6978
+          ]
+        ]
+      }
+    ],
+    "places": [
+      {
+        "id": "ep1-poi-1",
+        "name": "Tokyo International Airport Terminal",
+        "category": "transit",
+        "coordinates": [
+          35.5494,
+          139.7798
+        ],
+        "videoTimestamp": 45,
+        "description": "Arrival gate in Japan where the boys celebrate touching down in Tokyo.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tokyo+Haneda+Airport",
+        "address": "Hanedakuko, Ota City, Tokyo 144-0041"
+      },
+      {
+        "id": "ep1-poi-2",
+        "name": "Tokyo Central Hotel Check-In",
+        "category": "stay",
+        "coordinates": [
+          35.6942,
+          139.6978
+        ],
+        "videoTimestamp": 210,
+        "description": "Hotel accommodation for the first leg of their Tokyo journey.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6942,139.6978",
+        "address": "Shinjuku-ku / Kabukicho area, Tokyo"
+      },
+      {
+        "id": "ep1-poi-3",
+        "name": "FamilyMart Convenience Store",
+        "category": "shop",
+        "coordinates": [
+          35.6951,
+          139.6989
+        ],
+        "videoTimestamp": 360,
+        "description": "Legendary Japanese konbini run: tasting egg salad sandwiches, famichiki, and melon soda.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=FamilyMart+Shinjuku+Tokyo",
+        "address": "Shinjuku City, Tokyo"
+      },
+      {
+        "id": "ep1-poi-4",
+        "name": "Tokyo Neon Crossing & Night Streets",
+        "category": "viewpoint",
+        "coordinates": [
+          35.6994,
+          139.7055
+        ],
+        "videoTimestamp": 620,
+        "description": "Vibrant neon street lights of Tokyo at night.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6994,139.7055",
+        "address": "Shinjuku Night District, Tokyo"
+      }
+    ]
+  },
+  {
+    "id": "ep-02",
+    "dayNumber": 2,
+    "region": "Tokyo",
+    "title": "The Oldest Temple in Tokyo & eating Ramen - Moc in Japan Day 2",
+    "youtubeId": "uaM4pc066sA",
+    "youtubeUrl": "https://youtu.be/uaM4pc066sA",
+    "channelName": "Men of Culture Ultra",
+    "totalDurationSeconds": 1140,
+    "overview": "Day 2 of MoC in Japan: Journey to historic Asakusa to visit Sensō-ji, Tokyo’s oldest temple (founded in 645 AD). Walking down Nakamise-dōri shopping street, through Kaminarimon Gate, drawing omikuji fortune slips, and enjoying authentic Tokyo Ramen.",
+    "segments": [
+      {
+        "id": "ep2-seg-1",
+        "title": "Asakusa Station to Kaminarimon Gate",
+        "timeStart": 45,
+        "timeEnd": 150,
+        "pacing": "linear",
+        "description": "Emerging from Asakusa Metro Station and walking up to the giant red lantern at Kaminarimon Gate.",
+        "path": [
+          [
+            35.7107,
+            139.7975
+          ],
+          [
+            35.711,
+            139.7968
+          ],
+          [
+            35.7111,
+            139.7963
+          ]
+        ]
+      },
+      {
+        "id": "ep2-seg-2",
+        "title": "Nakamise-dōri Walk (Slow at First, Faster at Last)",
+        "timeStart": 150,
+        "timeEnd": 375,
+        "pacing": "easeIn",
+        "description": "Walking past historic artisan stalls, ningyo-yaki sweets, and fan shops. Moving leisurely at first, then picking up pace towards the temple courtyard.",
+        "path": [
+          [
+            35.7111,
+            139.7963
+          ],
+          [
+            35.7118,
+            139.7964
+          ],
+          [
+            35.7126,
+            139.7965
+          ],
+          [
+            35.7135,
+            139.7966
+          ],
+          [
+            35.7142,
+            139.7967
+          ]
+        ]
+      },
+      {
+        "id": "ep2-seg-3",
+        "title": "Sensō-ji Courtyard & Main Hall Pilgrimage",
+        "timeStart": 375,
+        "timeEnd": 580,
+        "pacing": "easeInOut",
+        "description": "Purification at the chozuya water pavilion, waving incense smoke for good luck, and stepping up to the Sensō-ji Main Hall.",
+        "path": [
+          [
+            35.7142,
+            139.7967
+          ],
+          [
+            35.7145,
+            139.7967
+          ],
+          [
+            35.7148,
+            139.7967
+          ],
+          [
+            35.7145,
+            139.796
+          ]
+        ]
+      },
+      {
+        "id": "ep2-seg-4",
+        "title": "Walk to Traditional Asakusa Ramen Bar",
+        "timeStart": 580,
+        "timeEnd": 850,
+        "pacing": "linear",
+        "description": "Leaving the temple grounds down the western pedestrian alley toward a cozy ramen shop for lunch.",
+        "path": [
+          [
+            35.7145,
+            139.796
+          ],
+          [
+            35.7138,
+            139.7952
+          ],
+          [
+            35.7129,
+            139.7946
+          ],
+          [
+            35.7122,
+            139.7942
+          ],
+          [
+            35.7115,
+            139.794
+          ]
+        ]
+      }
+    ],
+    "places": [
+      {
+        "id": "ep2-poi-1",
+        "name": "Asakusa Station (Tokyo Metro Ginza Line)",
+        "category": "transit",
+        "coordinates": [
+          35.7107,
+          139.7975
+        ],
+        "videoTimestamp": 50,
+        "description": "The metro station where the trio arrives in Taito City for their heritage day.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Asakusa+Station+Tokyo",
+        "address": "1-1-3 Asakusa, Taito City, Tokyo 111-0032"
+      },
+      {
+        "id": "ep2-poi-2",
+        "name": "Kaminarimon Gate (Thunder Gate)",
+        "category": "landmark",
+        "coordinates": [
+          35.7111,
+          139.7963
+        ],
+        "videoTimestamp": 110,
+        "description": "Iconic entrance gate of Sensō-ji, famous for its colossal 700kg red paper lantern.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kaminarimon+Gate+Tokyo",
+        "address": "2-3-1 Asakusa, Taito City, Tokyo 111-0032"
+      },
+      {
+        "id": "ep2-poi-3",
+        "name": "Nakamise-dōri Shopping Street",
+        "category": "shop",
+        "coordinates": [
+          35.7126,
+          139.7965
+        ],
+        "videoTimestamp": 230,
+        "description": "One of Japan’s oldest shopping streets, lined with ~90 traditional stalls selling Japanese sweets and souvenirs.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nakamise-dori+Street+Asakusa",
+        "address": "1-36-3 Asakusa, Taito City, Tokyo 111-0032"
+      },
+      {
+        "id": "ep2-poi-4",
+        "name": "Sensō-ji Temple (Main Hall / Hondo)",
+        "category": "landmark",
+        "coordinates": [
+          35.7148,
+          139.7967
+        ],
+        "videoTimestamp": 420,
+        "description": "Tokyo’s oldest and most sacred Buddhist temple, founded in 645 AD and dedicated to Kannon.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Senso-ji+Temple+Tokyo",
+        "address": "2-3-1 Asakusa, Taito City, Tokyo 111-0032"
+      },
+      {
+        "id": "ep2-poi-5",
+        "name": "Asakusa Five-Story Pagoda (Gojūnotō)",
+        "category": "viewpoint",
+        "coordinates": [
+          35.7145,
+          139.796
+        ],
+        "videoTimestamp": 520,
+        "description": "Magnificent 53-meter high pagoda housing sacred relics.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sensoji+Five+Story+Pagoda",
+        "address": "Sensō-ji Grounds, Taito City, Tokyo"
+      },
+      {
+        "id": "ep2-poi-6",
+        "name": "Traditional Tokyo Ramen Shop",
+        "category": "food",
+        "coordinates": [
+          35.7115,
+          139.794
+        ],
+        "videoTimestamp": 720,
+        "description": "Steaming hot bowls of rich tonkotsu/shoyu ramen with chashu pork, seasoned egg, and crispy gyoza.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ramen+Asakusa+Tokyo",
+        "address": "Asakusa West Arcade, Taito City, Tokyo"
+      }
+    ]
+  },
+  {
+    "id": "ep-03",
+    "dayNumber": 3,
+    "region": "Tokyo",
+    "title": "Magical experience, Indian restaurant & Your name stairs | MoC in Japan Day 3",
+    "youtubeId": "4UezSwqTCwk",
+    "youtubeUrl": "https://youtu.be/4UezSwqTCwk",
+    "channelName": "Men of Culture Ultra",
+    "totalDurationSeconds": 1220,
+    "overview": "Day 3: Immersive sensory art at teamLab Planets in Toyosu, enjoying Indian comfort food in Tokyo, followed by an emotional anime pilgrimage to the Suga Shrine red-railed stairs from Makoto Shinkai’s \"Your Name\" (Kimi no Na wa).",
+    "segments": [
+      {
+        "id": "ep3-seg-1",
+        "title": "Toyosu Waterfront & teamLab Planets",
+        "timeStart": 60,
+        "timeEnd": 270,
+        "pacing": "linear",
+        "description": "Walking from Shin-Toyosu Station into teamLab Planets Tokyo, wading through illuminated water and infinite crystal mirrors.",
+        "path": [
+          [
+            35.6492,
+            139.7898
+          ],
+          [
+            35.6504,
+            139.7909
+          ],
+          [
+            35.6516,
+            139.7923
+          ]
+        ]
+      },
+      {
+        "id": "ep3-seg-2",
+        "title": "Subway Transfer to Indian Restaurant",
+        "timeStart": 270,
+        "timeEnd": 435,
+        "pacing": "easeOut",
+        "description": "Taking the Yurakucho line into central Tokyo in search of home-style spicy Indian curry and garlic naan.",
+        "path": [
+          [
+            35.6516,
+            139.7923
+          ],
+          [
+            35.6601,
+            139.7755
+          ],
+          [
+            35.6764,
+            139.7621
+          ],
+          [
+            35.6852,
+            139.7523
+          ]
+        ]
+      },
+      {
+        "id": "ep3-seg-3",
+        "title": "Yotsuya Walk to Suga Shrine (Slow to Fast Pacing)",
+        "timeStart": 435,
+        "timeEnd": 705,
+        "pacing": "easeIn",
+        "description": "Exiting Yotsuya Station, passing quiet Shinjuku neighborhood cafes, then walking faster as the iconic staircase draws near.",
+        "path": [
+          [
+            35.6865,
+            139.7297
+          ],
+          [
+            35.6869,
+            139.7275
+          ],
+          [
+            35.6874,
+            139.7248
+          ],
+          [
+            35.6878,
+            139.7222
+          ],
+          [
+            35.6881,
+            139.7205
+          ]
+        ]
+      },
+      {
+        "id": "ep3-seg-4",
+        "title": "Climbing the \"Your Name\" Anime Stairs",
+        "timeStart": 705,
+        "timeEnd": 980,
+        "pacing": "easeInOut",
+        "description": "Recreating the unforgettable final scene of Taki and Mitsuha on the red-railed stairs up to Suga Shrine.",
+        "path": [
+          [
+            35.6881,
+            139.7205
+          ],
+          [
+            35.6883,
+            139.7206
+          ],
+          [
+            35.6885,
+            139.7207
+          ],
+          [
+            35.6887,
+            139.7208
+          ]
+        ]
+      }
+    ],
+    "places": [
+      {
+        "id": "ep3-poi-1",
+        "name": "teamLab Planets Tokyo",
+        "category": "landmark",
+        "coordinates": [
+          35.6516,
+          139.7923
+        ],
+        "videoTimestamp": 120,
+        "description": "World-renowned digital art museum where visitors walk barefoot through water and mirror light labyrinths.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=teamLab+Planets+Tokyo",
+        "address": "6-1-16 Toyosu, Koto City, Tokyo 135-0061"
+      },
+      {
+        "id": "ep3-poi-2",
+        "name": "Tokyo Indian Curry Restaurant",
+        "category": "food",
+        "coordinates": [
+          35.6852,
+          139.7523
+        ],
+        "videoTimestamp": 330,
+        "description": "Tasting Indian spices and butter chicken in Japan, sharing laughs about home food cravings.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Indian+Restaurant+Chiyoda+Tokyo",
+        "address": "Central Tokyo"
+      },
+      {
+        "id": "ep3-poi-3",
+        "name": "Yotsuya Station (JR Chuo & Tokyo Metro)",
+        "category": "transit",
+        "coordinates": [
+          35.6865,
+          139.7297
+        ],
+        "videoTimestamp": 460,
+        "description": "The starting station for the walking journey to Suga Shrine.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Yotsuya+Station+Tokyo",
+        "address": "1 Chome Yotsuya, Shinjuku City, Tokyo"
+      },
+      {
+        "id": "ep3-poi-4",
+        "name": "Suga Shrine Stairs (\"Your Name\" Kimi no Na wa Stairs)",
+        "category": "viewpoint",
+        "coordinates": [
+          35.6883,
+          139.7206
+        ],
+        "videoTimestamp": 780,
+        "description": "The legendary red handrail stairs where Taki and Mitsuha turn around and ask: \"Kimi no namae wa?\" (What is your name?).",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Suga+Shrine+Tokyo+Your+Name+stairs",
+        "address": "5 Suga-cho, Shinjuku City, Tokyo 160-0018"
+      },
+      {
+        "id": "ep3-poi-5",
+        "name": "Suga Shrine Main Hall",
+        "category": "landmark",
+        "coordinates": [
+          35.6887,
+          139.7208
+        ],
+        "videoTimestamp": 910,
+        "description": "Quiet local Shinto shrine dedicated to Susanoo-no-Mikoto and Ukanomitama-no-Mikoto.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Suga+Shrine+Shinjuku+Tokyo",
+        "address": "5 Suga-cho, Shinjuku City, Tokyo 160-0018"
+      }
+    ]
+  },
+  {
+    "id": "ep-04",
+    "dayNumber": 4,
+    "region": "Tokyo",
+    "title": "18 Plus shops, Anime figures & Shibuya crossing - MoC in Japan Day 4",
+    "youtubeId": "k-LgcbRQ2yU",
+    "youtubeUrl": "https://youtu.be/k-LgcbRQ2yU",
+    "channelName": "Men of Culture Ultra",
+    "totalDurationSeconds": 1350,
+    "overview": "Day 4 of MoC in Japan: Dive into the electric heart of Akihabara for anime figures and unique specialty hobby shops, followed by an evening in Shibuya visiting Hachiko and walking the legendary Shibuya Scramble Crossing.",
+    "segments": [
+      {
+        "id": "ep4-seg-1",
+        "title": "Akihabara Station to Radio Kaikan & Figure Shops",
+        "timeStart": 40,
+        "timeEnd": 240,
+        "pacing": "linear",
+        "description": "Exiting Akihabara Electric Town Gate, stepping into Radio Kaikan and multi-floor anime collectible centers.",
+        "path": [
+          [
+            35.6983,
+            139.7731
+          ],
+          [
+            35.698,
+            139.7719
+          ],
+          [
+            35.6989,
+            139.7716
+          ]
+        ]
+      },
+      {
+        "id": "ep4-seg-2",
+        "title": "Chuo-dori Akihabara Otaku Boulevard Walk",
+        "timeStart": 240,
+        "timeEnd": 510,
+        "pacing": "easeInOut",
+        "description": "Walking past giant anime billboards, retro game stores, gachapon halls, and specialty hobby shops.",
+        "path": [
+          [
+            35.6989,
+            139.7716
+          ],
+          [
+            35.6997,
+            139.7714
+          ],
+          [
+            35.7008,
+            139.7698
+          ],
+          [
+            35.702,
+            139.771
+          ]
+        ]
+      },
+      {
+        "id": "ep4-seg-3",
+        "title": "Shibuya Arrival & Hachiko Statue Meeting Point",
+        "timeStart": 510,
+        "timeEnd": 720,
+        "pacing": "easeOut",
+        "description": "Taking the Yamanote line to Shibuya, paying respects at the historic bronze Hachiko memorial.",
+        "path": [
+          [
+            35.6585,
+            139.7013
+          ],
+          [
+            35.6591,
+            139.7006
+          ]
+        ]
+      },
+      {
+        "id": "ep4-seg-4",
+        "title": "Crossing Shibuya Scramble (Slow Start, Fast End)",
+        "timeStart": 720,
+        "timeEnd": 990,
+        "pacing": "easeIn",
+        "description": "Waiting at the bustling pedestrian curb, then sweeping across the world’s busiest crosswalk surrounded by giant neon video screens into Center-Gai.",
+        "path": [
+          [
+            35.6591,
+            139.7006
+          ],
+          [
+            35.6595,
+            139.7005
+          ],
+          [
+            35.6598,
+            139.7003
+          ],
+          [
+            35.6601,
+            139.6994
+          ]
+        ]
+      },
+      {
+        "id": "ep4-seg-5",
+        "title": "Center-Gai Evening Exploration & Rooftop View",
+        "timeStart": 990,
+        "timeEnd": 1280,
+        "pacing": "easeInOut",
+        "description": "Walking deep into Center-Gai bustling food alleyways and catching the panoramic night view of the crossing.",
+        "path": [
+          [
+            35.6601,
+            139.6994
+          ],
+          [
+            35.6608,
+            139.6982
+          ],
+          [
+            35.6614,
+            139.6974
+          ],
+          [
+            35.66,
+            139.7009
+          ]
+        ]
+      }
+    ],
+    "places": [
+      {
+        "id": "ep4-poi-1",
+        "name": "Akihabara Radio Kaikan (Figure & Hobby Hub)",
+        "category": "shop",
+        "coordinates": [
+          35.698,
+          139.7719
+        ],
+        "videoTimestamp": 80,
+        "description": "Iconic 10-story otaku department store packed with anime figures, model kits, and trading cards.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Akihabara+Radio+Kaikan+Tokyo",
+        "address": "1-15-16 Sotokanda, Chiyoda City, Tokyo 101-0021"
+      },
+      {
+        "id": "ep4-poi-2",
+        "name": "Mandarake Complex Akihabara",
+        "category": "shop",
+        "coordinates": [
+          35.7008,
+          139.7698
+        ],
+        "videoTimestamp": 310,
+        "description": "Black-exterior 8-floor pop culture treasure trove with rare vintage toys, manga, and subculture goods.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mandarake+Complex+Akihabara",
+        "address": "3-11-12 Sotokanda, Chiyoda City, Tokyo 101-0021"
+      },
+      {
+        "id": "ep4-poi-3",
+        "name": "Hachiko Memorial Statue (Shibuya)",
+        "category": "landmark",
+        "coordinates": [
+          35.6591,
+          139.7006
+        ],
+        "videoTimestamp": 540,
+        "description": "World-famous bronze statue commemorating the legendary loyal Akita dog Hachiko outside Shibuya Station.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hachiko+Memorial+Statue+Tokyo",
+        "address": "1-2 Dogenzaka, Shibuya City, Tokyo 150-0043"
+      },
+      {
+        "id": "ep4-poi-4",
+        "name": "Shibuya Scramble Crossing",
+        "category": "viewpoint",
+        "coordinates": [
+          35.6595,
+          139.7005
+        ],
+        "videoTimestamp": 760,
+        "description": "The world’s busiest pedestrian intersection where up to 3,000 people cross at every green light beneath massive neon billboards.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Shibuya+Scramble+Crossing+Tokyo",
+        "address": "2 Chome Dogenzaka, Shibuya City, Tokyo 150-0043"
+      },
+      {
+        "id": "ep4-poi-5",
+        "name": "Shibuya Center-Gai (Center Street)",
+        "category": "food",
+        "coordinates": [
+          35.6601,
+          139.6994
+        ],
+        "videoTimestamp": 950,
+        "description": "High-energy pedestrian thoroughfare filled with izakayas, ramen shops, fashion stores, and Tokyo youth culture.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Shibuya+Center-Gai+Tokyo",
+        "address": "Udagawacho, Shibuya City, Tokyo 150-0042"
+      },
+      {
+        "id": "ep4-poi-6",
+        "name": "Magnet by Shibuya 109 Crossing View",
+        "category": "viewpoint",
+        "coordinates": [
+          35.66,
+          139.7009
+        ],
+        "videoTimestamp": 1180,
+        "description": "Rooftop observation deck providing bird’s-eye views directly over the Shibuya Scramble.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Magnet+by+Shibuya+109+Rooftop",
+        "address": "1-23-10 Jinnan, Shibuya City, Tokyo 150-0041"
+      }
+    ]
+  },
+  {
+    "id": "ep-05",
+    "dayNumber": 5,
+    "region": "Kyoto & Osaka",
+    "title": "First Bullet train Experience in JAPAN | MoC in Japan Day 5",
+    "youtubeId": "Hjzo9WBROGA",
+    "youtubeUrl": "https://youtu.be/Hjzo9WBROGA",
+    "channelName": "Men of Culture Ultra",
+    "totalDurationSeconds": 1420,
+    "overview": "Day 5: Boarding the legendary Tokaido Shinkansen bullet train from Tokyo Station to Kyoto at 285 km/h. Tasting Japanese ekiben bento boxes, spotting Mount Fuji through the window, and stepping into the futuristic Kyoto Station.",
+    "segments": [
+      {
+        "id": "ep5-seg-1",
+        "title": "Tokyo Station Concourse & Ekiben Bento Hunt",
+        "timeStart": 45,
+        "timeEnd": 230,
+        "pacing": "linear",
+        "description": "Navigating Tokyo Station to the Shinkansen gates and buying specialty station bento boxes at Ekibenya Matsuri.",
+        "path": [
+          [
+            35.6812,
+            139.7671
+          ],
+          [
+            35.6814,
+            139.768
+          ],
+          [
+            35.6815,
+            139.769
+          ]
+        ]
+      },
+      {
+        "id": "ep5-seg-2",
+        "title": "Tokaido Shinkansen High-Speed Cruise (Slow Start, 285 km/h Peak)",
+        "timeStart": 230,
+        "timeEnd": 620,
+        "pacing": "easeIn",
+        "description": "Accelerating out of Tokyo, speeding past Yokohama and catching the majestic view of Mount Fuji from Seat E on the right side of the train.",
+        "path": [
+          [
+            35.6815,
+            139.769
+          ],
+          [
+            35.5074,
+            139.6176
+          ],
+          [
+            35.1428,
+            138.6631
+          ],
+          [
+            35.1709,
+            136.8815
+          ],
+          [
+            34.9858,
+            135.7588
+          ]
+        ]
+      },
+      {
+        "id": "ep5-seg-3",
+        "title": "Arriving at Kyoto Station & Grand Staircase",
+        "timeStart": 620,
+        "timeEnd": 920,
+        "pacing": "easeInOut",
+        "description": "Stepping off the bullet train into Kyoto Station’s 16-story futuristic glass atrium and climbing the iconic LED Grand Staircase.",
+        "path": [
+          [
+            34.9858,
+            135.7588
+          ],
+          [
+            34.9862,
+            135.7586
+          ],
+          [
+            34.9868,
+            135.7592
+          ]
+        ]
+      },
+      {
+        "id": "ep5-seg-4",
+        "title": "Walking to Kyoto Traditional Hotel",
+        "timeStart": 920,
+        "timeEnd": 1250,
+        "pacing": "linear",
+        "description": "Walking through Kyoto streets with suitcases towards their Kansai hotel base.",
+        "path": [
+          [
+            34.9868,
+            135.7592
+          ],
+          [
+            34.9878,
+            135.7598
+          ],
+          [
+            34.9892,
+            135.7605
+          ]
+        ]
+      }
+    ],
+    "places": [
+      {
+        "id": "ep5-poi-1",
+        "name": "Tokyo Station (Shinkansen Platform)",
+        "category": "transit",
+        "coordinates": [
+          35.6812,
+          139.7671
+        ],
+        "videoTimestamp": 60,
+        "description": "Historic red-brick terminal where the journey on the Tokaido Shinkansen bullet train begins.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tokyo+Station+Shinkansen",
+        "address": "1 Chome Marunouchi, Chiyoda City, Tokyo"
+      },
+      {
+        "id": "ep5-poi-2",
+        "name": "Ekibenya Matsuri (Bento Hub)",
+        "category": "food",
+        "coordinates": [
+          35.6814,
+          139.768
+        ],
+        "videoTimestamp": 150,
+        "description": "Famous store offering over 200 varieties of regional train bento boxes from across Japan.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ekibenya+Matsuri+Tokyo+Station",
+        "address": "Tokyo Station Central Concourse 1F"
+      },
+      {
+        "id": "ep5-poi-3",
+        "name": "Mount Fuji Shinkansen Viewpoint",
+        "category": "viewpoint",
+        "coordinates": [
+          35.1428,
+          138.6631
+        ],
+        "videoTimestamp": 420,
+        "description": "Iconic window view of snow-capped Mt. Fuji as the bullet train speeds through Shizuoka Prefecture.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mount+Fuji+Shizuoka",
+        "address": "Shizuoka Prefecture, Japan"
+      },
+      {
+        "id": "ep5-poi-4",
+        "name": "Kyoto Station Grand Staircase & Atrium",
+        "category": "landmark",
+        "coordinates": [
+          34.9858,
+          135.7588
+        ],
+        "videoTimestamp": 720,
+        "description": "Architectural masterpiece designed by Hiroshi Hara with a 171-step illuminated Grand Staircase.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kyoto+Station+Grand+Staircase",
+        "address": "Higashishiokojicho, Shimogyo Ward, Kyoto"
+      },
+      {
+        "id": "ep5-poi-5",
+        "name": "Kyoto Hotel Accommodation",
+        "category": "stay",
+        "coordinates": [
+          34.9892,
+          135.7605
+        ],
+        "videoTimestamp": 1040,
+        "description": "Check-in at their hotel in Kyoto for exploring the ancient capital.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=34.9892,135.7605",
+        "address": "Shimogyo Ward, Kyoto"
+      }
+    ]
+  },
+  {
+    "id": "ep-06",
+    "dayNumber": 6,
+    "region": "Kyoto & Osaka",
+    "title": "Bar Fight, missed train & getting scammed | Moc in Japan day 6",
+    "youtubeId": "dgRcT1KnIJg",
+    "youtubeUrl": "https://youtu.be/dgRcT1KnIJg",
+    "channelName": "Men of Culture Ultra",
+    "totalDurationSeconds": 1380,
+    "overview": "Day 6: Nightlife in Kansai: walking the neon Dotonbori canal beneath the famous Glico Running Man, wandering izakaya alleys, unexpected bar chaos, missing the last train, and walking the late-night streets.",
+    "segments": [
+      {
+        "id": "ep6-seg-1",
+        "title": "Dotonbori Canal Walk & Glico Landmark",
+        "timeStart": 50,
+        "timeEnd": 280,
+        "pacing": "linear",
+        "description": "Walking along the illuminated canal boardwalk, posing with the giant Glico Running Man sign and giant mechanical crab.",
+        "path": [
+          [
+            34.6687,
+            135.5013
+          ],
+          [
+            34.669,
+            135.5017
+          ],
+          [
+            34.6693,
+            135.5028
+          ]
+        ]
+      },
+      {
+        "id": "ep6-seg-2",
+        "title": "Shinsaibashi-suji Arcade & Izakaya Alley (Slow to Fast Pacing)",
+        "timeStart": 280,
+        "timeEnd": 590,
+        "pacing": "easeIn",
+        "description": "Browsing through the vibrant shopping arcade, dodging street promoters, and stepping into a bustling local izakaya bar.",
+        "path": [
+          [
+            34.6693,
+            135.5028
+          ],
+          [
+            34.6702,
+            135.5024
+          ],
+          [
+            34.671,
+            135.502
+          ],
+          [
+            34.6718,
+            135.5016
+          ]
+        ]
+      },
+      {
+        "id": "ep6-seg-3",
+        "title": "Late Night Sprint & The Missed Train",
+        "timeStart": 590,
+        "timeEnd": 860,
+        "pacing": "easeInOut",
+        "description": "Checking the clock, sprinting towards the station gates only to see the last midnight train pull away from the platform.",
+        "path": [
+          [
+            34.6718,
+            135.5016
+          ],
+          [
+            34.6698,
+            135.501
+          ],
+          [
+            34.666,
+            135.5005
+          ]
+        ]
+      },
+      {
+        "id": "ep6-seg-4",
+        "title": "Quiet Midnight Stroll Back to Accommodation",
+        "timeStart": 860,
+        "timeEnd": 1220,
+        "pacing": "linear",
+        "description": "Taking in the peaceful post-midnight stillness of Japanese streets, stopping at a late-night vending machine.",
+        "path": [
+          [
+            34.666,
+            135.5005
+          ],
+          [
+            34.668,
+            135.504
+          ],
+          [
+            34.671,
+            135.507
+          ],
+          [
+            34.6735,
+            135.5085
+          ]
+        ]
+      }
+    ],
+    "places": [
+      {
+        "id": "ep6-poi-1",
+        "name": "Glico Running Man Sign (Dotonbori)",
+        "category": "landmark",
+        "coordinates": [
+          34.669,
+          135.5017
+        ],
+        "videoTimestamp": 90,
+        "description": "The world-famous illuminated neon landmark installed in 1935 overlooking the Dotonbori canal.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Glico+Sign+Dotonbori+Osaka",
+        "address": "1-10-2 Dotonbori, Chuo Ward, Osaka"
+      },
+      {
+        "id": "ep6-poi-2",
+        "name": "Ebisubashi Bridge",
+        "category": "viewpoint",
+        "coordinates": [
+          34.6687,
+          135.5013
+        ],
+        "videoTimestamp": 180,
+        "description": "The prime photo spot where crowds gather to take selfies imitating the Glico athlete pose.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ebisubashi+Bridge+Osaka",
+        "address": "Chuo Ward, Osaka 542-0071"
+      },
+      {
+        "id": "ep6-poi-3",
+        "name": "Shinsaibashi-suji Shopping Arcade",
+        "category": "shop",
+        "coordinates": [
+          34.671,
+          135.502
+        ],
+        "videoTimestamp": 350,
+        "description": "Covered 600-meter retail artery packed with boutiques, street food stalls, and izakayas.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Shinsaibashi-suji+Shopping+Street+Osaka",
+        "address": "2 Chome Shinsaibashisuji, Chuo Ward, Osaka"
+      },
+      {
+        "id": "ep6-poi-4",
+        "name": "Local Kansai Izakaya & Bar",
+        "category": "food",
+        "coordinates": [
+          34.6718,
+          135.5016
+        ],
+        "videoTimestamp": 510,
+        "description": "Tasting takoyaki octopus balls and drinks where the memorable bar chaos unfolded.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Izakaya+Dotonbori+Osaka",
+        "address": "Chuo Ward, Osaka"
+      },
+      {
+        "id": "ep6-poi-5",
+        "name": "Namba Station (Late-Night Gates)",
+        "category": "transit",
+        "coordinates": [
+          34.666,
+          135.5005
+        ],
+        "videoTimestamp": 780,
+        "description": "Major transit hub where the creators just missed the final connecting train.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Namba+Station+Osaka",
+        "address": "5 Chome Namba, Chuo Ward, Osaka"
+      }
+    ]
+  },
+  {
+    "id": "ep-07",
+    "dayNumber": 7,
+    "region": "Kyoto & Osaka",
+    "title": "Fav chips ka packet, crazy school students | MoC in Japan day 7",
+    "youtubeId": "lhNswlSQGSY",
+    "youtubeUrl": "https://youtu.be/lhNswlSQGSY",
+    "channelName": "Men of Culture Ultra",
+    "totalDurationSeconds": 1290,
+    "overview": "Day 7: Exploring the spiritual wonderland of Fushimi Inari Taisha in Kyoto. Hiking through thousands of vermilion Torii gates, meeting enthusiastic Japanese students on school field trips, and tasting their favorite Japanese chips and snacks.",
+    "segments": [
+      {
+        "id": "ep7-seg-1",
+        "title": "Inari Station to Shrine Romon Gate",
+        "timeStart": 40,
+        "timeEnd": 190,
+        "pacing": "linear",
+        "description": "Exiting JR Inari Station directly into the grand entrance of Fushimi Inari Taisha flanked by stone fox statues (kitsune).",
+        "path": [
+          [
+            34.9671,
+            135.7726
+          ],
+          [
+            34.9675,
+            135.774
+          ],
+          [
+            34.9678,
+            135.7758
+          ]
+        ]
+      },
+      {
+        "id": "ep7-seg-2",
+        "title": "Senbon Torii Walk & Meeting School Groups (Slow to Fast Pacing)",
+        "timeStart": 190,
+        "timeEnd": 540,
+        "pacing": "easeIn",
+        "description": "Stepping into the dense, tunnel-like red Torii paths, chatting with energetic Japanese school students, then hiking upwards along the mountain ridge.",
+        "path": [
+          [
+            34.9678,
+            135.7758
+          ],
+          [
+            34.9682,
+            135.777
+          ],
+          [
+            34.9688,
+            135.7782
+          ],
+          [
+            34.9695,
+            135.779
+          ]
+        ]
+      },
+      {
+        "id": "ep7-seg-3",
+        "title": "Mountain Tea House & Konbini Favorite Chips Run",
+        "timeStart": 540,
+        "timeEnd": 840,
+        "pacing": "easeInOut",
+        "description": "Catching the panoramic Kyoto city overlook at Yotsutsuji, cracking open their favorite Japanese potato chips (Calbee pizza potato) and cold tea.",
+        "path": [
+          [
+            34.9695,
+            135.779
+          ],
+          [
+            34.969,
+            135.7785
+          ],
+          [
+            34.968,
+            135.776
+          ]
+        ]
+      },
+      {
+        "id": "ep7-seg-4",
+        "title": "Descending through Bamboo Woods & Street Stalls",
+        "timeStart": 840,
+        "timeEnd": 1180,
+        "pacing": "linear",
+        "description": "Walking down the quiet rear bamboo mountain trail past toriyaki chicken and sweet dango vendors.",
+        "path": [
+          [
+            34.968,
+            135.776
+          ],
+          [
+            34.9676,
+            135.7745
+          ],
+          [
+            34.9671,
+            135.7726
+          ]
+        ]
+      }
+    ],
+    "places": [
+      {
+        "id": "ep7-poi-1",
+        "name": "JR Inari Station (Nara Line)",
+        "category": "transit",
+        "coordinates": [
+          34.9671,
+          135.7726
+        ],
+        "videoTimestamp": 50,
+        "description": "Charming vermilion-painted station located right at the foot of the sacred mountain.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Inari+Station+Kyoto",
+        "address": "Fukakusa Inarionmacho, Fushimi Ward, Kyoto"
+      },
+      {
+        "id": "ep7-poi-2",
+        "name": "Fushimi Inari Taisha (Romon Gate)",
+        "category": "landmark",
+        "coordinates": [
+          34.9678,
+          135.7758
+        ],
+        "videoTimestamp": 120,
+        "description": "The head shrine of the Inari kami, originally founded in 711 AD, renowned for its giant two-story Romon gate built by Toyotomi Hideyoshi.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Fushimi+Inari+Taisha+Kyoto",
+        "address": "68 Fukakusa Yabunouchicho, Fushimi Ward, Kyoto"
+      },
+      {
+        "id": "ep7-poi-3",
+        "name": "Senbon Torii (Thousand Vermilion Torii Gates)",
+        "category": "viewpoint",
+        "coordinates": [
+          34.9682,
+          135.777
+        ],
+        "videoTimestamp": 270,
+        "description": "Tightly packed tunnels of bright orange Torii gates donated by devotees, creating a mesmerizing spiritual corridor.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Senbon+Torii+Kyoto",
+        "address": "Fushimi Inari Mountain Trail, Kyoto"
+      },
+      {
+        "id": "ep7-poi-4",
+        "name": "Yotsutsuji Mountain Overlook & Tea House",
+        "category": "viewpoint",
+        "coordinates": [
+          34.9695,
+          135.779
+        ],
+        "videoTimestamp": 610,
+        "description": "Midway plateau on Mount Inari offering sweeping scenic views of southern Kyoto city.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Yotsutsuji+Fushimi+Inari+Kyoto",
+        "address": "Mount Inari, Fushimi Ward, Kyoto"
+      },
+      {
+        "id": "ep7-poi-5",
+        "name": "Kyoto Konbini & Snack Shop (Favorite Chips)",
+        "category": "food",
+        "coordinates": [
+          34.9676,
+          135.7745
+        ],
+        "videoTimestamp": 750,
+        "description": "Where the creators celebrate finding their favorite savory Japanese potato chips and cold drinks.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lawson+Inari+Station+Kyoto",
+        "address": "Fushimi Ward, Kyoto"
+      }
+    ]
+  },
+  {
+    "id": "ep-08",
+    "dayNumber": 8,
+    "region": "Kyoto & Osaka",
+    "title": "The most wholesome granny 🥰 | Moc in Japan day 8",
+    "youtubeId": "7slOucatiY4",
+    "youtubeUrl": "https://youtu.be/7slOucatiY4",
+    "channelName": "Men of Culture Ultra",
+    "totalDurationSeconds": 1320,
+    "overview": "Day 8: Exploring picturesque Arashiyama in western Kyoto. Crossing the wooden Togetsukyo Bridge over the Katsura River, wandering through the towering Sagano Bamboo Forest, and having an unforgettable heartwarming encounter with an elderly Japanese teahouse grandmother.",
+    "segments": [
+      {
+        "id": "ep8-seg-1",
+        "title": "Saga-Arashiyama Station to Togetsukyo Bridge",
+        "timeStart": 45,
+        "timeEnd": 240,
+        "pacing": "linear",
+        "description": "Exiting the station and walking past rickshaws and wooden souvenir shops towards the iconic river bridge.",
+        "path": [
+          [
+            35.0169,
+            135.6814
+          ],
+          [
+            35.0152,
+            135.6792
+          ],
+          [
+            35.0128,
+            135.6776
+          ]
+        ]
+      },
+      {
+        "id": "ep8-seg-2",
+        "title": "Crossing Togetsukyo Bridge & Riverbank Stroll",
+        "timeStart": 240,
+        "timeEnd": 480,
+        "pacing": "easeInOut",
+        "description": "Scenic bridge walk with views of the forested Arashiyama mountains reflected on the Katsura River.",
+        "path": [
+          [
+            35.0128,
+            135.6776
+          ],
+          [
+            35.0118,
+            135.6775
+          ],
+          [
+            35.0108,
+            135.6774
+          ],
+          [
+            35.012,
+            135.675
+          ]
+        ]
+      },
+      {
+        "id": "ep8-seg-3",
+        "title": "Towering Sagano Bamboo Forest Walk (Slow Start, Fast End)",
+        "timeStart": 480,
+        "timeEnd": 820,
+        "pacing": "easeIn",
+        "description": "Entering the emerald green bamboo grove, listening to the rustling stalks in the wind, walking leisurely then following the winding path toward the heritage teahouses.",
+        "path": [
+          [
+            35.0145,
+            135.6738
+          ],
+          [
+            35.0168,
+            135.6712
+          ],
+          [
+            35.0175,
+            135.6698
+          ],
+          [
+            35.019,
+            135.671
+          ]
+        ]
+      },
+      {
+        "id": "ep8-seg-4",
+        "title": "The Wholesome Granny Teahouse Encounter",
+        "timeStart": 820,
+        "timeEnd": 1190,
+        "pacing": "linear",
+        "description": "Welcomed with warm smiles and hospitality by the lovely elderly grandmother serving traditional matcha, warabi-mochi, and handcrafted souvenirs.",
+        "path": [
+          [
+            35.019,
+            135.671
+          ],
+          [
+            35.0205,
+            135.6722
+          ],
+          [
+            35.018,
+            135.674
+          ]
+        ]
+      }
+    ],
+    "places": [
+      {
+        "id": "ep8-poi-1",
+        "name": "JR Saga-Arashiyama Station",
+        "category": "transit",
+        "coordinates": [
+          35.0169,
+          135.6814
+        ],
+        "videoTimestamp": 50,
+        "description": "Gateway railway station to the scenic Arashiyama and Sagano historic preservation district.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Saga-Arashiyama+Station+Kyoto",
+        "address": "Sagatenryuji Kurumamichicho, Ukyo Ward, Kyoto"
+      },
+      {
+        "id": "ep8-poi-2",
+        "name": "Togetsukyo Bridge (Moon Crossing Bridge)",
+        "category": "landmark",
+        "coordinates": [
+          35.0128,
+          135.6776
+        ],
+        "videoTimestamp": 160,
+        "description": "Historic wooden bridge originally built in 836 AD spanning the Katsura River against mountain scenery.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Togetsukyo+Bridge+Kyoto",
+        "address": "Ukyo Ward, Kyoto 616-8384"
+      },
+      {
+        "id": "ep8-poi-3",
+        "name": "Arashiyama Bamboo Grove (Sagano Forest)",
+        "category": "viewpoint",
+        "coordinates": [
+          35.0168,
+          135.6712
+        ],
+        "videoTimestamp": 530,
+        "description": "World-famous bamboo grove where towering bamboo stalks soar skyward, creating a peaceful green light canopy.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Arashiyama+Bamboo+Grove+Kyoto",
+        "address": "Sagatenryuji Utanochiyocho, Ukyo Ward, Kyoto"
+      },
+      {
+        "id": "ep8-poi-4",
+        "name": "The Wholesome Granny Traditional Teahouse",
+        "category": "food",
+        "coordinates": [
+          35.0205,
+          135.6722
+        ],
+        "videoTimestamp": 890,
+        "description": "The heartwarming traditional Japanese tea and sweet shop where the kind elderly grandmother hosted the creators.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Arashiyama+Traditional+Teahouse+Kyoto",
+        "address": "Sagano, Ukyo Ward, Kyoto"
+      },
+      {
+        "id": "ep8-poi-5",
+        "name": "Tenryu-ji Temple World Heritage Grounds",
+        "category": "landmark",
+        "coordinates": [
+          35.0158,
+          135.6777
+        ],
+        "videoTimestamp": 1100,
+        "description": "First ranked of Kyoto’s Five Great Zen Temples, registered as a UNESCO World Heritage site.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tenryu-ji+Temple+Kyoto",
+        "address": "68 Sagatenryuji Susukinobabacho, Ukyo Ward, Kyoto"
+      }
+    ]
+  },
+  {
+    "id": "ep-09",
+    "dayNumber": 9,
+    "region": "Nara",
+    "title": "Meeting Hiran | MoC in Japan Day 9",
+    "youtubeId": "t86m1XdKR8w",
+    "youtubeUrl": "https://youtu.be/t86m1XdKR8w",
+    "channelName": "Men of Culture Ultra",
+    "totalDurationSeconds": 1260,
+    "overview": "Day 9: Day trip to the ancient capital of Nara. Meeting the world-famous bowing sacred deer (\"hiran\"), feeding them shika-senbei crackers, and walking past the giant Nandaimon wooden gate into Todai-ji to witness the Great Bronze Buddha.",
+    "segments": [
+      {
+        "id": "ep9-seg-1",
+        "title": "Kintetsu-Nara Station to Nara Deer Park Entrance",
+        "timeStart": 40,
+        "timeEnd": 210,
+        "pacing": "linear",
+        "description": "Walking out of Kintetsu-Nara Station down the historic avenue towards the open green parkland.",
+        "path": [
+          [
+            34.6841,
+            135.8277
+          ],
+          [
+            34.6843,
+            135.832
+          ],
+          [
+            34.6845,
+            135.836
+          ]
+        ]
+      },
+      {
+        "id": "ep9-seg-2",
+        "title": "Feeding Bowing Deer / Hiran (Slow Approach, Fast Swarm)",
+        "timeStart": 210,
+        "timeEnd": 560,
+        "pacing": "easeIn",
+        "description": "Buying packages of shika-senbei deer crackers, cautiously approaching the deer, laughing as bowing deer politely bow their heads before swarming for snacks.",
+        "path": [
+          [
+            34.6845,
+            135.836
+          ],
+          [
+            34.6852,
+            135.8395
+          ],
+          [
+            34.686,
+            135.8415
+          ],
+          [
+            34.6875,
+            135.8402
+          ]
+        ]
+      },
+      {
+        "id": "ep9-seg-3",
+        "title": "Passing Nandaimon Gate & Todai-ji Great Buddha",
+        "timeStart": 560,
+        "timeEnd": 920,
+        "pacing": "easeInOut",
+        "description": "Gazing up at the colossal wooden Nio guardian statues at Nandaimon Gate, then stepping into the jaw-dropping Daibutsuden.",
+        "path": [
+          [
+            34.6875,
+            135.8402
+          ],
+          [
+            34.6882,
+            135.84
+          ],
+          [
+            34.689,
+            135.8399
+          ],
+          [
+            34.69,
+            135.8398
+          ]
+        ]
+      },
+      {
+        "id": "ep9-seg-4",
+        "title": "Park Stroll Back Past Kofuku-ji Pagoda",
+        "timeStart": 920,
+        "timeEnd": 1180,
+        "pacing": "linear",
+        "description": "Walking leisurely across the grassy meadows of Nara Park, waving goodbye to the deer, and heading back to the station.",
+        "path": [
+          [
+            34.69,
+            135.8398
+          ],
+          [
+            34.6855,
+            135.834
+          ],
+          [
+            34.6841,
+            135.8277
+          ]
+        ]
+      }
+    ],
+    "places": [
+      {
+        "id": "ep9-poi-1",
+        "name": "Kintetsu-Nara Station",
+        "category": "transit",
+        "coordinates": [
+          34.6841,
+          135.8277
+        ],
+        "videoTimestamp": 45,
+        "description": "Main arrival train terminal for visiting Nara Park and historic temples.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kintetsu-Nara+Station",
+        "address": "Higashimuki Nakamachi, Nara"
+      },
+      {
+        "id": "ep9-poi-2",
+        "name": "Nara Park (Sacred Deer Grounds)",
+        "category": "landmark",
+        "coordinates": [
+          34.6852,
+          135.8395
+        ],
+        "videoTimestamp": 230,
+        "description": "Sprawling public park home to over 1,200 free-roaming wild sika deer considered sacred divine messengers.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nara+Park+Japan",
+        "address": "Nara, 630-8211"
+      },
+      {
+        "id": "ep9-poi-3",
+        "name": "Shika-Senbei (Deer Cracker) Vendor",
+        "category": "food",
+        "coordinates": [
+          34.686,
+          135.8415
+        ],
+        "videoTimestamp": 310,
+        "description": "Traditional street stalls selling natural wheat bran crackers that the deer recognize and bow for.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Deer+Crackers+Nara+Park",
+        "address": "Nara Park, Nara"
+      },
+      {
+        "id": "ep9-poi-4",
+        "name": "Todai-ji Nandaimon Gate",
+        "category": "landmark",
+        "coordinates": [
+          34.6882,
+          135.84
+        ],
+        "videoTimestamp": 600,
+        "description": "Monumental 25-meter wooden gate housing the ferocious 8-meter Kongo Rikishi statues carved by Unkei in 1203.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Todaiji+Nandaimon+Gate+Nara",
+        "address": "406-1 Zoshicho, Nara, 630-8211"
+      },
+      {
+        "id": "ep9-poi-5",
+        "name": "Todai-ji Temple (Daibutsuden / Great Buddha Hall)",
+        "category": "landmark",
+        "coordinates": [
+          34.69,
+          135.8398
+        ],
+        "videoTimestamp": 780,
+        "description": "One of the world’s largest wooden buildings, housing the towering 15-meter bronze statue of Vairocana Buddha.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Todai-ji+Great+Buddha+Nara",
+        "address": "406-1 Zoshicho, Nara, 630-8211"
+      }
+    ]
+  },
+  {
+    "id": "ep-10",
+    "dayNumber": 10,
+    "region": "Kyoto & Osaka",
+    "title": "Fake Demon Slayer Castle & Mountain Climbing | MoC in Japan Day 10",
+    "youtubeId": "DqxXyhRWRSc",
+    "youtubeUrl": "https://youtu.be/DqxXyhRWRSc",
+    "channelName": "Men of Culture Ultra",
+    "totalDurationSeconds": 1390,
+    "overview": "Day 10: Adventurous excursion into the Japanese highlands and mountain trails. Discovering scenic wooden architecture reminiscent of the Infinity Castle from Demon Slayer (Kimetsu no Yaiba), hiking steep forest trails, and conquering the summit lookout.",
+    "segments": [
+      {
+        "id": "ep10-seg-1",
+        "title": "Highland Trailhead & Forest Stream Walk",
+        "timeStart": 40,
+        "timeEnd": 260,
+        "pacing": "linear",
+        "description": "Crossing a rustic wooden footbridge over crystal clear mountain streams at the entrance to the hiking trail.",
+        "path": [
+          [
+            35.0502,
+            135.795
+          ],
+          [
+            35.0525,
+            135.7972
+          ],
+          [
+            35.0558,
+            135.7995
+          ]
+        ]
+      },
+      {
+        "id": "ep10-seg-2",
+        "title": "The \"Demon Slayer Castle\" Wooden Pavilion",
+        "timeStart": 260,
+        "timeEnd": 580,
+        "pacing": "easeInOut",
+        "description": "Exploring the multi-story traditional timber structure with suspended wooden walkways and floating stages resembling the Demon Slayer Infinity Castle.",
+        "path": [
+          [
+            35.0558,
+            135.7995
+          ],
+          [
+            35.058,
+            135.8015
+          ],
+          [
+            35.0592,
+            135.8028
+          ]
+        ]
+      },
+      {
+        "id": "ep10-seg-3",
+        "title": "Steep Mountain Trail Hike (Slow Start, Fast Finish)",
+        "timeStart": 580,
+        "timeEnd": 950,
+        "pacing": "easeIn",
+        "description": "Climbing up stone stairs and winding cedar forest trails. Catching breath while ascending slowly, then picking up speed toward the summit crest.",
+        "path": [
+          [
+            35.0592,
+            135.8028
+          ],
+          [
+            35.062,
+            135.8045
+          ],
+          [
+            35.0655,
+            135.807
+          ],
+          [
+            35.0688,
+            135.8095
+          ]
+        ]
+      },
+      {
+        "id": "ep10-seg-4",
+        "title": "Summit Observation Overlook & Hot Soba",
+        "timeStart": 950,
+        "timeEnd": 1280,
+        "pacing": "linear",
+        "description": "Standing at the panoramic mountain summit observation deck overlooking misty Japanese peaks and valleys, enjoying piping hot mountain soba noodles.",
+        "path": [
+          [
+            35.0688,
+            135.8095
+          ],
+          [
+            35.071,
+            135.8115
+          ],
+          [
+            35.0705,
+            135.8105
+          ]
+        ]
+      }
+    ],
+    "places": [
+      {
+        "id": "ep10-poi-1",
+        "name": "Highland Nature Trailhead",
+        "category": "transit",
+        "coordinates": [
+          35.0502,
+          135.795
+        ],
+        "videoTimestamp": 50,
+        "description": "Starting point of the mountain ascent surrounded by dense Japanese cedar and pine woods.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0502,135.7950",
+        "address": "Scenic Mountain Valley, Kansai"
+      },
+      {
+        "id": "ep10-poi-2",
+        "name": "The \"Demon Slayer Castle\" Wooden Pavilion",
+        "category": "landmark",
+        "coordinates": [
+          35.058,
+          135.8015
+        ],
+        "videoTimestamp": 310,
+        "description": "Spectacular multi-tiered traditional Japanese wooden architecture evocative of the anime Infinity Castle.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0580,135.8015",
+        "address": "Highland Forest Pavilion, Japan"
+      },
+      {
+        "id": "ep10-poi-3",
+        "name": "Mountain Suspension Footbridge",
+        "category": "viewpoint",
+        "coordinates": [
+          35.0558,
+          135.7995
+        ],
+        "videoTimestamp": 450,
+        "description": "Swaying wooden footbridge spanning over rushing mountain river rapids.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0558,135.7995",
+        "address": "Kansai Mountain Trail"
+      },
+      {
+        "id": "ep10-poi-4",
+        "name": "Summit Mountain Deck Overlook",
+        "category": "viewpoint",
+        "coordinates": [
+          35.071,
+          135.8115
+        ],
+        "videoTimestamp": 1020,
+        "description": "Spectacular 360-degree panoramic vista across the mountain ranges of central Japan.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0710,135.8115",
+        "address": "Summit Ridge Observation Point"
+      },
+      {
+        "id": "ep10-poi-5",
+        "name": "Mountain Ridge Soba Hut",
+        "category": "food",
+        "coordinates": [
+          35.0705,
+          135.8105
+        ],
+        "videoTimestamp": 1170,
+        "description": "Cozy alpine rest stop serving steaming bowls of tempura buckwheat soba noodles to weary hikers.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mountain+Soba+Kyoto",
+        "address": "Highland Summit Hut"
+      }
+    ]
+  },
+  {
+    "id": "ep-11",
+    "dayNumber": 11,
+    "region": "Kyoto & Osaka",
+    "title": "Traveling Back, Bullet Train Almost Missed | MoC in Japan Day 11",
+    "youtubeId": "A-aybgj5wZs",
+    "youtubeUrl": "https://youtu.be/A-aybgj5wZs",
+    "channelName": "Men of Culture Ultra",
+    "totalDurationSeconds": 1310,
+    "overview": "Day 11: Departure from Kyoto and traveling back to Tokyo. Packing up, a high-stakes sprint through Kyoto Station ticket barriers to board the Shinkansen with seconds to spare, and the return bullet train journey back to Tokyo metropolis.",
+    "segments": [
+      {
+        "id": "ep11-seg-1",
+        "title": "Kyoto Hotel Check-Out & Station Rush",
+        "timeStart": 40,
+        "timeEnd": 180,
+        "pacing": "linear",
+        "description": "Rolling suitcases through the morning streets toward Kyoto Station as departure time approaches.",
+        "path": [
+          [
+            34.9892,
+            135.7605
+          ],
+          [
+            34.9878,
+            135.7598
+          ],
+          [
+            34.9862,
+            135.7586
+          ]
+        ]
+      },
+      {
+        "id": "ep11-seg-2",
+        "title": "The Bullet Train Gate Sprint (Slow Walk to Full Sprint!)",
+        "timeStart": 180,
+        "timeEnd": 420,
+        "pacing": "easeIn",
+        "description": "Realizing the train departs in 3 minutes! Walking rapidly, validating tickets, then bursting into an intense full sprint up the escalator onto the Shinkansen platform just as departure chimes ring!",
+        "path": [
+          [
+            34.9862,
+            135.7586
+          ],
+          [
+            34.9858,
+            135.7588
+          ],
+          [
+            34.9855,
+            135.7592
+          ],
+          [
+            34.9852,
+            135.7595
+          ]
+        ]
+      },
+      {
+        "id": "ep11-seg-3",
+        "title": "Tokaido Shinkansen Return Journey to Tokyo",
+        "timeStart": 420,
+        "timeEnd": 880,
+        "pacing": "easeInOut",
+        "description": "Catching their breath in the bullet train seats, laughing over the near-disaster, and watching the Japanese countryside zip past at nearly 300 km/h.",
+        "path": [
+          [
+            34.9852,
+            135.7595
+          ],
+          [
+            35.1709,
+            136.8815
+          ],
+          [
+            35.1428,
+            138.6631
+          ],
+          [
+            35.5074,
+            139.6176
+          ],
+          [
+            35.6812,
+            139.7671
+          ]
+        ]
+      },
+      {
+        "id": "ep11-seg-4",
+        "title": "Arrival Back in Tokyo & Return Hotel Check-In",
+        "timeStart": 880,
+        "timeEnd": 1230,
+        "pacing": "linear",
+        "description": "Stepping back onto Tokyo soil, taking the Yamanote line to their Tokyo return base for the final leg of the tour.",
+        "path": [
+          [
+            35.6812,
+            139.7671
+          ],
+          [
+            35.685,
+            139.73
+          ],
+          [
+            35.6942,
+            139.6978
+          ]
+        ]
+      }
+    ],
+    "places": [
+      {
+        "id": "ep11-poi-1",
+        "name": "Kyoto Hotel (Morning Departure)",
+        "category": "stay",
+        "coordinates": [
+          34.9892,
+          135.7605
+        ],
+        "videoTimestamp": 45,
+        "description": "Checking out of their Kansai headquarters with packed luggage.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=34.9892,135.7605",
+        "address": "Shimogyo Ward, Kyoto"
+      },
+      {
+        "id": "ep11-poi-2",
+        "name": "Kyoto Station Shinkansen Ticket Gate (The Sprint Point)",
+        "category": "transit",
+        "coordinates": [
+          34.9858,
+          135.7588
+        ],
+        "videoTimestamp": 280,
+        "description": "Where the creators tapped their IC cards and sprinted with suitcases to catch their bullet train with seconds to spare.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kyoto+Station+Shinkansen+Ticket+Gate",
+        "address": "Higashishiokojicho, Shimogyo Ward, Kyoto"
+      },
+      {
+        "id": "ep11-poi-3",
+        "name": "Tokaido Shinkansen Platform Track 11/12",
+        "category": "transit",
+        "coordinates": [
+          34.9852,
+          135.7595
+        ],
+        "videoTimestamp": 390,
+        "description": "The Shinkansen platform where they leaped aboard just as the doors were closing.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kyoto+Station+Shinkansen+Platform",
+        "address": "Kyoto Station, Kyoto"
+      },
+      {
+        "id": "ep11-poi-4",
+        "name": "Tokyo Station Marunouchi Central Exit",
+        "category": "transit",
+        "coordinates": [
+          35.6812,
+          139.7671
+        ],
+        "videoTimestamp": 950,
+        "description": "Returning to Tokyo terminal after the cross-country high-speed journey from Kansai.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tokyo+Station+Marunouchi",
+        "address": "1 Chome Marunouchi, Chiyoda City, Tokyo"
+      },
+      {
+        "id": "ep11-poi-5",
+        "name": "Tokyo Return Hotel Check-In",
+        "category": "stay",
+        "coordinates": [
+          35.6942,
+          139.6978
+        ],
+        "videoTimestamp": 1140,
+        "description": "Base of operations for the remaining days of their Japan journey.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6942,139.6978",
+        "address": "Shinjuku, Tokyo"
+      }
+    ]
+  },
+  {
+    "id": "ep-12",
+    "dayNumber": 12,
+    "region": "Tokyo",
+    "title": "Bhu- Kump🌎 Happened | Moc in Japan Day 12",
+    "youtubeId": "yyfZY3Cps90",
+    "youtubeUrl": "https://youtu.be/yyfZY3Cps90",
+    "channelName": "Men of Culture Ultra",
+    "totalDurationSeconds": 1280,
+    "overview": "Day 12: Waking up in Tokyo to a real earthquake tremor. Seeing Tokyo skyscrapers swaying gently on seismic dampeners, exploring Kabukicho’s neon nightlife beneath the giant Godzilla head, and eating steaming late-night ramen in Shinjuku.",
+    "segments": [
+      {
+        "id": "ep12-seg-1",
+        "title": "Shinjuku High-Rise Hotel (Earthquake Site)",
+        "timeStart": 40,
+        "timeEnd": 210,
+        "pacing": "linear",
+        "description": "Morning in Shinjuku high-rise, feeling the room sway during the earthquake tremor and discussing Tokyo earthquake safety engineering.",
+        "path": [
+          [
+            35.6942,
+            139.6978
+          ],
+          [
+            35.6935,
+            139.697
+          ],
+          [
+            35.692,
+            139.6965
+          ]
+        ]
+      },
+      {
+        "id": "ep12-seg-2",
+        "title": "Skyscraper Boulevard to Kabukicho Godzilla Road (Slow to Fast)",
+        "timeStart": 210,
+        "timeEnd": 550,
+        "pacing": "easeIn",
+        "description": "Walking out into the bustling streets of Shinjuku, staring up at the iconic life-sized Godzilla head roaring above the Toho Cinema complex.",
+        "path": [
+          [
+            35.692,
+            139.6965
+          ],
+          [
+            35.6938,
+            139.7005
+          ],
+          [
+            35.6955,
+            139.702
+          ],
+          [
+            35.696,
+            139.7025
+          ]
+        ]
+      },
+      {
+        "id": "ep12-seg-3",
+        "title": "Kabukicho Neon Alleyways & Golden Gai",
+        "timeStart": 550,
+        "timeEnd": 890,
+        "pacing": "easeInOut",
+        "description": "Walking through labyrinthine alleyways filled with neon signs, pachinko parlors, and historic micro-bars.",
+        "path": [
+          [
+            35.696,
+            139.7025
+          ],
+          [
+            35.6952,
+            139.7038
+          ],
+          [
+            35.694,
+            139.7042
+          ]
+        ]
+      },
+      {
+        "id": "ep12-seg-4",
+        "title": "Late Night Shinjuku Ramen Bowl",
+        "timeStart": 890,
+        "timeEnd": 1210,
+        "pacing": "linear",
+        "description": "Slurping rich tonkotsu broth and noodles at a vibrant 24-hour ramen shop after an action-packed day.",
+        "path": [
+          [
+            35.694,
+            139.7042
+          ],
+          [
+            35.6932,
+            139.7018
+          ],
+          [
+            35.6925,
+            139.699
+          ]
+        ]
+      }
+    ],
+    "places": [
+      {
+        "id": "ep12-poi-1",
+        "name": "Shinjuku High-Rise Hotel (Earthquake Site)",
+        "category": "stay",
+        "coordinates": [
+          35.6942,
+          139.6978
+        ],
+        "videoTimestamp": 50,
+        "description": "The Tokyo hotel where the creators experienced an earthquake tremor and witnessed Japan’s earthquake-resistant skyscraper dampeners.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Shinjuku+Hotel+Tokyo",
+        "address": "Shinjuku, Tokyo"
+      },
+      {
+        "id": "ep12-poi-2",
+        "name": "Kabukicho Ichibangai Neon Entrance Arch",
+        "category": "landmark",
+        "coordinates": [
+          35.6938,
+          139.7005
+        ],
+        "videoTimestamp": 280,
+        "description": "The world-famous red illuminated neon entrance gate into Tokyo’s most famous entertainment district.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kabukicho+Ichibangai+Arch+Tokyo",
+        "address": "1 Chome Kabukicho, Shinjuku City, Tokyo"
+      },
+      {
+        "id": "ep12-poi-3",
+        "name": "Godzilla Head Landmark (Hotel Gracery Shinjuku)",
+        "category": "viewpoint",
+        "coordinates": [
+          35.696,
+          139.7025
+        ],
+        "videoTimestamp": 420,
+        "description": "Full-scale 12-meter high Godzilla head perched on the 8th-floor terrace overlooking Godzilla Road.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Godzilla+Head+Shinjuku+Tokyo",
+        "address": "1-19-1 Kabukicho, Shinjuku City, Tokyo"
+      },
+      {
+        "id": "ep12-poi-4",
+        "name": "Shinjuku Golden Gai (Historic Bar District)",
+        "category": "food",
+        "coordinates": [
+          35.694,
+          139.7042
+        ],
+        "videoTimestamp": 690,
+        "description": "Intimate network of six narrow alleys lined with over 200 tiny post-war wooden bars and izakayas.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Shinjuku+Golden+Gai+Tokyo",
+        "address": "1-1-6 Kabukicho, Shinjuku City, Tokyo"
+      },
+      {
+        "id": "ep12-poi-5",
+        "name": "24-Hour Shinjuku Ramen Bar",
+        "category": "food",
+        "coordinates": [
+          35.6925,
+          139.699
+        ],
+        "videoTimestamp": 980,
+        "description": "Steaming bowls of ramen with rich broth, chashu pork, and nori seaweed enjoyed late into the night.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ramen+Kabukicho+Shinjuku",
+        "address": "Shinjuku City, Tokyo"
+      }
+    ]
+  },
+  {
+    "id": "ep-13",
+    "dayNumber": 13,
+    "region": "Tokyo",
+    "title": "Dangerous game with electric shock | MoC in Japan Day 13",
+    "youtubeId": "N6HP_ZhcyF8",
+    "youtubeUrl": "https://youtu.be/N6HP_ZhcyF8",
+    "channelName": "Men of Culture Ultra",
+    "totalDurationSeconds": 1340,
+    "overview": "Day 13: Journey across Tokyo Bay on the driverless Yurikamome monorail to the futuristic entertainment island of Odaiba. Competing in hilarious electric shock reaction arcade games at Tokyo Joypolis and gazing up at the life-sized Unicorn Gundam.",
+    "segments": [
+      {
+        "id": "ep13-seg-1",
+        "title": "Yurikamome Monorail Ride over Tokyo Bay",
+        "timeStart": 45,
+        "timeEnd": 220,
+        "pacing": "linear",
+        "description": "Riding the futuristic automated monorail looping around Rainbow Bridge with sweeping ocean views of Tokyo Harbor.",
+        "path": [
+          [
+            35.6664,
+            139.7583
+          ],
+          [
+            35.642,
+            139.762
+          ],
+          [
+            35.6295,
+            139.7755
+          ]
+        ]
+      },
+      {
+        "id": "ep13-seg-2",
+        "title": "Tokyo Joypolis & The Electric Shock Arcade Game (Slow to Fast)",
+        "timeStart": 220,
+        "timeEnd": 620,
+        "pacing": "easeIn",
+        "description": "Stepping into Joypolis indoor amusement arcade, testing the electric shock lightning-reaction game where the slowest finger gets zapped!",
+        "path": [
+          [
+            35.6295,
+            139.7755
+          ],
+          [
+            35.6299,
+            139.7766
+          ],
+          [
+            35.6302,
+            139.777
+          ]
+        ]
+      },
+      {
+        "id": "ep13-seg-3",
+        "title": "Walk to Life-Sized Unicorn Gundam Statue",
+        "timeStart": 620,
+        "timeEnd": 950,
+        "pacing": "easeInOut",
+        "description": "Walking past DiverCity Tokyo to see the colossal 19.7-meter Unicorn Gundam transform into Destroy Mode with glowing red panels.",
+        "path": [
+          [
+            35.6302,
+            139.777
+          ],
+          [
+            35.626,
+            139.776
+          ],
+          [
+            35.6244,
+            139.7754
+          ]
+        ]
+      },
+      {
+        "id": "ep13-seg-4",
+        "title": "Odaiba Seaside Park & Rainbow Bridge Sunset",
+        "timeStart": 950,
+        "timeEnd": 1260,
+        "pacing": "linear",
+        "description": "Strolling along the artificial beach promenade admiring the illuminated Rainbow Bridge and Tokyo skyline silhouette.",
+        "path": [
+          [
+            35.6244,
+            139.7754
+          ],
+          [
+            35.628,
+            139.7735
+          ],
+          [
+            35.631,
+            139.7725
+          ]
+        ]
+      }
+    ],
+    "places": [
+      {
+        "id": "ep13-poi-1",
+        "name": "Yurikamome Monorail (Rainbow Bridge View)",
+        "category": "transit",
+        "coordinates": [
+          35.642,
+          139.762
+        ],
+        "videoTimestamp": 60,
+        "description": "Automated scenic train offering 270-degree views of Tokyo Bay and high-rise skyline.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Yurikamome+Line+Tokyo",
+        "address": "Tokyo Bay, Minato City, Tokyo"
+      },
+      {
+        "id": "ep13-poi-2",
+        "name": "Tokyo Joypolis (Sega Indoor Theme Park)",
+        "category": "landmark",
+        "coordinates": [
+          35.6299,
+          139.7766
+        ],
+        "videoTimestamp": 290,
+        "description": "Multi-story gaming mecca where the creators battled on VR coasters and the electric shock buzzer game.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tokyo+Joypolis+Odaiba",
+        "address": "DECKS Tokyo Beach 3F-5F, 1-6-1 Daiba, Minato City, Tokyo"
+      },
+      {
+        "id": "ep13-poi-3",
+        "name": "Life-Sized Unicorn Gundam Statue (RX-0)",
+        "category": "landmark",
+        "coordinates": [
+          35.6244,
+          139.7754
+        ],
+        "videoTimestamp": 720,
+        "description": "Massive 1:1 scale anime mecha standing 19.7 meters tall outside DiverCity Tokyo Plaza.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Unicorn+Gundam+Statue+Tokyo",
+        "address": "1-1-10 Aomi, Koto City, Tokyo"
+      },
+      {
+        "id": "ep13-poi-4",
+        "name": "Odaiba Statue of Liberty Replica",
+        "category": "viewpoint",
+        "coordinates": [
+          35.6298,
+          139.7718
+        ],
+        "videoTimestamp": 1040,
+        "description": "Famous French-Japanese commemorative statue framed against the Rainbow Bridge backdrop.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Odaiba+Statue+of+Liberty+Tokyo",
+        "address": "1-4-2 Daiba, Minato City, Tokyo"
+      },
+      {
+        "id": "ep13-poi-5",
+        "name": "Rainbow Bridge Waterfront Promenade",
+        "category": "viewpoint",
+        "coordinates": [
+          35.631,
+          139.7725
+        ],
+        "videoTimestamp": 1180,
+        "description": "Peaceful waterfront sand park with dazzling views of the illuminated suspension bridge at night.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Odaiba+Marine+Park+Tokyo",
+        "address": "1 Chome Daiba, Minato City, Tokyo"
+      }
+    ]
+  },
+  {
+    "id": "ep-14",
+    "dayNumber": 14,
+    "region": "Tokyo",
+    "title": "Shopping Like Rich People || MoC in Japan Day 14",
+    "youtubeId": "vHH_evYhvyQ",
+    "youtubeUrl": "https://youtu.be/vHH_evYhvyQ",
+    "channelName": "Men of Culture Ultra",
+    "totalDurationSeconds": 1410,
+    "overview": "Day 14: Luxury and high-energy shopping across Tokyo. Walking down Ginza’s glamorous Chuo-Dori boulevard, touring the 12-story Uniqlo Ginza flagship store, relaxing at the Ginza Six rooftop garden, and heading to Harajuku’s colorful Takeshita Street.",
+    "segments": [
+      {
+        "id": "ep14-seg-1",
+        "title": "Ginza Chuo-Dori Luxury Avenue Walk",
+        "timeStart": 45,
+        "timeEnd": 240,
+        "pacing": "linear",
+        "description": "Walking down Ginza’s pedestrian paradise surrounded by flagship department stores and high-end fashion boutiques.",
+        "path": [
+          [
+            35.6715,
+            139.765
+          ],
+          [
+            35.6708,
+            139.7645
+          ],
+          [
+            35.6702,
+            139.764
+          ]
+        ]
+      },
+      {
+        "id": "ep14-seg-2",
+        "title": "Uniqlo Ginza 12-Story Global Flagship Tour",
+        "timeStart": 240,
+        "timeEnd": 560,
+        "pacing": "easeInOut",
+        "description": "Exploring 12 complete floors of apparel, UT graphic tees, anime collaborations, and customized embroidery stations.",
+        "path": [
+          [
+            35.6702,
+            139.764
+          ],
+          [
+            35.6698,
+            139.7638
+          ],
+          [
+            35.6695,
+            139.7635
+          ]
+        ]
+      },
+      {
+        "id": "ep14-seg-3",
+        "title": "Subway to Harajuku & Takeshita Street (Slow to Fast)",
+        "timeStart": 560,
+        "timeEnd": 920,
+        "pacing": "easeIn",
+        "description": "Taking the train to Harajuku, passing beneath the iconic colorful archway of Takeshita Street packed with youth fashion and sweet aromas.",
+        "path": [
+          [
+            35.6702,
+            139.7027
+          ],
+          [
+            35.6708,
+            139.7038
+          ],
+          [
+            35.6715,
+            139.7055
+          ]
+        ]
+      },
+      {
+        "id": "ep14-seg-4",
+        "title": "Japanese Crepes & Harajuku Streetwear Stroll",
+        "timeStart": 920,
+        "timeEnd": 1290,
+        "pacing": "linear",
+        "description": "Enjoying fresh rolled strawberry and matcha crepes, browsing vintage thrift shops and unique Tokyo streetwear.",
+        "path": [
+          [
+            35.6715,
+            139.7055
+          ],
+          [
+            35.672,
+            139.707
+          ],
+          [
+            35.669,
+            139.705
+          ]
+        ]
+      }
+    ],
+    "places": [
+      {
+        "id": "ep14-poi-1",
+        "name": "Ginza Wako Clock Tower & Intersection",
+        "category": "landmark",
+        "coordinates": [
+          35.6708,
+          139.7645
+        ],
+        "videoTimestamp": 60,
+        "description": "The neo-Renaissance landmark clock tower built in 1932 standing at Ginza 4-chome crossing.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ginza+Wako+Clock+Tower+Tokyo",
+        "address": "4-5-11 Ginza, Chuo City, Tokyo"
+      },
+      {
+        "id": "ep14-poi-2",
+        "name": "Uniqlo Ginza Global Flagship Store (12 Floors)",
+        "category": "shop",
+        "coordinates": [
+          35.6698,
+          139.7638
+        ],
+        "videoTimestamp": 290,
+        "description": "World’s largest Uniqlo store with 12 distinct shopping floors and moving mannequin displays.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Uniqlo+Ginza+Flagship+Tokyo",
+        "address": "6-9-5 Ginza, Chuo City, Tokyo"
+      },
+      {
+        "id": "ep14-poi-3",
+        "name": "Ginza Six Rooftop Garden",
+        "category": "viewpoint",
+        "coordinates": [
+          35.6695,
+          139.7635
+        ],
+        "videoTimestamp": 480,
+        "description": "4,000-square-meter open-air green oasis perched atop Ginza’s premier luxury mall.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ginza+Six+Rooftop+Garden",
+        "address": "6-10-1 Ginza, Chuo City, Tokyo"
+      },
+      {
+        "id": "ep14-poi-4",
+        "name": "Takeshita Street (Harajuku Entrance Arch)",
+        "category": "shop",
+        "coordinates": [
+          35.6708,
+          139.7038
+        ],
+        "videoTimestamp": 650,
+        "description": "Epicenter of Japanese teen culture and quirky street fashion, filled with trendy boutiques.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Takeshita+Street+Harajuku+Tokyo",
+        "address": "1 Chome Jingumae, Shibuya City, Tokyo"
+      },
+      {
+        "id": "ep14-poi-5",
+        "name": "Marion Crepes Harajuku",
+        "category": "food",
+        "coordinates": [
+          35.6715,
+          139.7055
+        ],
+        "videoTimestamp": 980,
+        "description": "Legendary crepe stand serving warm thin pancakes stuffed with whipped cream, cheesecake, and strawberries since 1976.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Marion+Crepes+Harajuku",
+        "address": "1-6-15 Jingumae, Shibuya City, Tokyo"
+      }
+    ]
+  },
+  {
+    "id": "ep-15",
+    "dayNumber": 15,
+    "region": "Tokyo",
+    "title": "😍Simping On Supercars || MOC in Japan Day 15",
+    "youtubeId": "cMuKHncJTCI",
+    "youtubeUrl": "https://youtu.be/cMuKHncJTCI",
+    "channelName": "Men of Culture Ultra",
+    "totalDurationSeconds": 1450,
+    "overview": "Day 15: Diving into Japan’s legendary JDM & supercar culture. Visiting Super AUTOBACS Tokyo Bay in Shinonome to admire tuned Nissan Skyline GT-Rs and RX-7s, spotting exotic supercars cruising down Roppongi Keyakizaka, and finishing beside the glowing Tokyo Tower.",
+    "segments": [
+      {
+        "id": "ep15-seg-1",
+        "title": "Shinonome Transit to Super AUTOBACS Tokyo Bay",
+        "timeStart": 45,
+        "timeEnd": 230,
+        "pacing": "linear",
+        "description": "Exiting Shinonome Station and heading straight to the multi-level automotive haven of Super AUTOBACS.",
+        "path": [
+          [
+            35.6438,
+            139.7995
+          ],
+          [
+            35.6444,
+            139.8012
+          ],
+          [
+            35.645,
+            139.803
+          ]
+        ]
+      },
+      {
+        "id": "ep15-seg-2",
+        "title": "JDM Car Meet: Skylines, RX-7s & Tuner Bays",
+        "timeStart": 230,
+        "timeEnd": 590,
+        "pacing": "easeInOut",
+        "description": "Marveling at pristine Nissan Skyline GT-R R34s, widebody Mazda RX-7s, Toyota Supras, and custom performance parts.",
+        "path": [
+          [
+            35.645,
+            139.803
+          ],
+          [
+            35.6458,
+            139.8038
+          ],
+          [
+            35.6465,
+            139.8045
+          ]
+        ]
+      },
+      {
+        "id": "ep15-seg-3",
+        "title": "Roppongi Supercar Strip Spotting (Slow to Fast)",
+        "timeStart": 590,
+        "timeEnd": 980,
+        "pacing": "easeIn",
+        "description": "Heading to Roppongi Hills Keyakizaka, watching Lamborghinis, Ferraris, and custom hypercars revving through Tokyo’s most glamorous boulevard.",
+        "path": [
+          [
+            35.6628,
+            139.731
+          ],
+          [
+            35.6618,
+            139.73
+          ],
+          [
+            35.6605,
+            139.729
+          ],
+          [
+            35.6595,
+            139.7305
+          ]
+        ]
+      },
+      {
+        "id": "ep15-seg-4",
+        "title": "Tokyo Tower Midnight Illumination Drive",
+        "timeStart": 980,
+        "timeEnd": 1330,
+        "pacing": "linear",
+        "description": "Approaching the foot of Tokyo Tower glowing bright orange against the midnight sky, snapping dream photos.",
+        "path": [
+          [
+            35.6595,
+            139.7305
+          ],
+          [
+            35.6588,
+            139.738
+          ],
+          [
+            35.6586,
+            139.7454
+          ]
+        ]
+      }
+    ],
+    "places": [
+      {
+        "id": "ep15-poi-1",
+        "name": "Super AUTOBACS Tokyo Bay (Shinonome JDM Hub)",
+        "category": "shop",
+        "coordinates": [
+          35.645,
+          139.803
+        ],
+        "videoTimestamp": 80,
+        "description": "Famous mecca for Japanese automotive culture, custom parts, and impromptu weekend sports car meets.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Super+Autobacs+Tokyo+Bay+Shinonome",
+        "address": "2-7-20 Shinonome, Koto City, Tokyo"
+      },
+      {
+        "id": "ep15-poi-2",
+        "name": "Roppongi Keyakizaka Boulevard (Supercar Runway)",
+        "category": "viewpoint",
+        "coordinates": [
+          35.6605,
+          139.729
+        ],
+        "videoTimestamp": 680,
+        "description": "Tree-lined luxury boulevard known as Tokyo’s premier spot for spotting exotic supercars and luxury tuning.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Roppongi+Keyakizaka+Dori+Tokyo",
+        "address": "Roppongi, Minato City, Tokyo"
+      },
+      {
+        "id": "ep15-poi-3",
+        "name": "Tokyo Tower (Iconic Illuminated Landmark)",
+        "category": "landmark",
+        "coordinates": [
+          35.6586,
+          139.7454
+        ],
+        "videoTimestamp": 1040,
+        "description": "The 332.9-meter communications and observation tower inspired by the Eiffel Tower glowing against the Tokyo night.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tokyo+Tower",
+        "address": "4-2-8 Shibakoen, Minato City, Tokyo"
+      },
+      {
+        "id": "ep15-poi-4",
+        "name": "Prince Shiba Park (Tower Viewpoint)",
+        "category": "viewpoint",
+        "coordinates": [
+          35.6588,
+          139.738
+        ],
+        "videoTimestamp": 1220,
+        "description": "Historic public park offering unobstructed ground-level angles of Tokyo Tower glowing in the evening.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Shiba+Park+Tokyo+Tower+View",
+        "address": "4 Chome Shibakoen, Minato City, Tokyo"
+      }
+    ]
+  },
+  {
+    "id": "ep-16",
+    "dayNumber": 16,
+    "region": "Tokyo",
+    "title": "Leaving Japan - THE END | MoC in Japan Final Episode",
+    "youtubeId": "lcR5jtR6Cyg",
+    "youtubeUrl": "https://youtu.be/lcR5jtR6Cyg",
+    "channelName": "Men of Culture Ultra",
+    "totalDurationSeconds": 1520,
+    "overview": "Final Episode: The bittersweet conclusion of the Japan adventure. Packing suitcases overflowing with figures, snacks, and memories, boarding the final airport train, walking through the international terminal, and saying farewell to Japan.",
+    "segments": [
+      {
+        "id": "ep16-seg-1",
+        "title": "Final Hotel Morning & Luggage Packing",
+        "timeStart": 45,
+        "timeEnd": 240,
+        "pacing": "linear",
+        "description": "Packing all the souvenirs, anime figures from Akihabara, and bags of chips into overflowing suitcases.",
+        "path": [
+          [
+            35.6942,
+            139.6978
+          ],
+          [
+            35.6925,
+            139.6954
+          ],
+          [
+            35.6895,
+            139.6917
+          ]
+        ]
+      },
+      {
+        "id": "ep16-seg-2",
+        "title": "Final Tokyo Walk & Airport Express Ride",
+        "timeStart": 240,
+        "timeEnd": 620,
+        "pacing": "easeInOut",
+        "description": "Taking the airport express rail, looking out the train windows at Tokyo’s suburbs fading away.",
+        "path": [
+          [
+            35.6895,
+            139.6917
+          ],
+          [
+            35.6284,
+            139.7387
+          ],
+          [
+            35.5494,
+            139.7798
+          ]
+        ]
+      },
+      {
+        "id": "ep16-seg-3",
+        "title": "Duty-Free Souvenir Hall & Last Japanese Meal",
+        "timeStart": 620,
+        "timeEnd": 1040,
+        "pacing": "linear",
+        "description": "Grabbing boxes of Tokyo Banana, Royce matcha chocolates, and slurping one last piping hot bowl of Japanese ramen at the airport.",
+        "path": [
+          [
+            35.5494,
+            139.7798
+          ],
+          [
+            35.548,
+            139.781
+          ],
+          [
+            35.547,
+            139.7815
+          ]
+        ]
+      },
+      {
+        "id": "ep16-seg-4",
+        "title": "Final Boarding Gate & Goodbye Japan (Slow to Departure)",
+        "timeStart": 1040,
+        "timeEnd": 1480,
+        "pacing": "easeIn",
+        "description": "Walking toward the departure gate, sharing heartfelt reflections on 15 incredible days in Japan, and stepping onto the plane home.",
+        "path": [
+          [
+            35.547,
+            139.7815
+          ],
+          [
+            35.546,
+            139.782
+          ],
+          [
+            35.5452,
+            139.783
+          ]
+        ]
+      }
+    ],
+    "places": [
+      {
+        "id": "ep16-poi-1",
+        "name": "Tokyo Final Hotel Checkout",
+        "category": "stay",
+        "coordinates": [
+          35.6942,
+          139.6978
+        ],
+        "videoTimestamp": 60,
+        "description": "The final morning in Tokyo saying goodbye to their hotel accommodation.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6942,139.6978",
+        "address": "Shinjuku, Tokyo"
+      },
+      {
+        "id": "ep16-poi-2",
+        "name": "Edo Ko-ji Market (Airport Departure Hall)",
+        "category": "shop",
+        "coordinates": [
+          35.548,
+          139.781
+        ],
+        "videoTimestamp": 680,
+        "description": "Edo-period replica shopping street inside the international terminal for final souvenirs and Tokyo Banana.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Edo+Koji+Haneda+Airport",
+        "address": "Haneda Airport Terminal 3, 4F"
+      },
+      {
+        "id": "ep16-poi-3",
+        "name": "Final Airport Ramen Hall",
+        "category": "food",
+        "coordinates": [
+          35.547,
+          139.7815
+        ],
+        "videoTimestamp": 890,
+        "description": "Enjoying one final authentic bowl of Japanese ramen before flying out of Japan.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ramen+Haneda+Terminal+3",
+        "address": "Terminal 3 International, Tokyo"
+      },
+      {
+        "id": "ep16-poi-4",
+        "name": "Tokyo International Departure Gate 114",
+        "category": "transit",
+        "coordinates": [
+          35.5452,
+          139.783
+        ],
+        "videoTimestamp": 1220,
+        "description": "The final boarding gate where the creators say their heartfelt goodbye to Japan.",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tokyo+Haneda+Terminal+3+Gate",
+        "address": "Tokyo Haneda International Airport"
+      }
+    ]
+  }
+]

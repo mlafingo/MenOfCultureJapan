@@ -1,0 +1,6 @@
+{
+  "name": "VlogRoute Studio",
+  "description": "Synchronized YouTube vlog player and interactive GPS route mapper with easing speed curves, Google Maps places, and open GeoJSON export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
